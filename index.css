@@ -1,0 +1,41 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.navigationbar {
+	margin-bottom: 0px;
+}
+.navigationbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #b2ebf2;
+}
+
+.navigationbar ul > li {
+	font-family: 'Advent Pro';
+	font-size: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	float: right;
+}
+
+.navigationbar ul > li:hover {
+	background-color: #81b9bf;
+}
+
+.title{
+	display:inline-block;
+	width: 100%;
+	margin-top:0px; 
+	padding:0px;
+	background-color: #ba68c8;
+	color: white;
+	font-family: "Advent Pro";
+	font-weight: 700;
+	font-size: 40px;
+	text-align: center;
+}
+
