@@ -1,41 +1,172 @@
-body{
-	margin: 0px;
-	padding: 0px;
+.body{
+	background-color: #EAEAEA;
 }
 
-.navigationbar {
-	margin-bottom: 0px;
-}
-.navigationbar ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #b2ebf2;
+.header{
+	background-color: #5f4391;
+	position: fixed;
+	z-index: 1;
 }
 
-.navigationbar ul > li {
+.nav-options ul li a{
+	width: auto;
+	height: 100%;
+	font-size: 24px;
+	text-decoration: none;
+	color: #ffffff;
 	font-family: 'Advent Pro';
-	font-size: 20px;
-	padding-right: 10px;
-	padding-left: 10px;
-	float: right;
 }
 
-.navigationbar ul > li:hover {
-	background-color: #81b9bf;
-}
-
-.title{
-	display:inline-block;
-	width: 100%;
-	margin-top:0px; 
-	padding:0px;
-	background-color: #ba68c8;
-	color: white;
-	font-family: "Advent Pro";
-	font-weight: 700;
-	font-size: 40px;
+.chapter_name{
 	text-align: center;
+	font-size: 30px;
+	font-family: 'Advent Pro';
+	text-decoration: none;
+	color: #ffffff;
 }
 
+.nav-options ul > li a:hover {
+	background-color:#ab8fde;
+	opacity: 0.7;
+}
+
+.logo{
+	margin-top: 5px;
+}
+.main-header{
+	padding: 80px;
+	font-family: 'Advent Pro';
+	text-align: center;
+	height: 100vh;
+	background-image: linear-gradient(#5f4391,#5f4391,#8860D0, #8860D0,#8860D0, #ab8fde);
+	color: #ffffff;
+}
+.main-header p1{
+	font-family: 'Fjalla One';
+	font-size: 150px;
+}
+
+.main-header p2{
+	font-size: 75px;
+}
+
+.about{
+	align-items: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	padding: 25px;
+	background-color: #EAEAEA;
+}
+
+.about-card{
+	margin: auto;
+	align-items: center;
+	background-color: #ffffff;
+	box-shadow: 10;
+}
+
+.paragraph heading{
+	text-align: center;
+	font-size: 35px;
+}
+
+.paragraph parabody{
+	font-size: 25px;
+	text-align: justify;
+}
+
+.officers{
+	padding: 30px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	text-align: center;
+	background-image: linear-gradient(#8860D0, #ab8fde);
+}
+
+hr {
+	color: #ffffff;
+	opacity: 0.6;
+	display: block;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 2px;
+}
+
+.contact-us {
+	margin: auto;
+	padding-top: 20px;
+	background-image: linear-gradient(#5680e9, #84CEEB);
+}
+
+.card{
+	border-color: transparent;
+	background-color: transparent;
+}
+
+.card-body{
+	font-family: 'Lato', sans-serif;
+}
+
+.card-body name{
+	font-size: 30px;
+}
+
+.card-body role{
+	font-size: 20px;
+}
+
+.fa { 
+	padding: 15px;
+	width: 50px;
+	height: 50px;
+	text-decoration: none;
+	border-radius: 50%;
+}
+
+.fa:hover {
+	opacity: 0.5;
+}
+
+.fa-facebook {
+	background-image: linear-gradient(#5AB9EA,#5AB9EA);
+	color: white;
+}
+
+.fa-linkedin {
+	background-image: linear-gradient(#5AB9EA,#5AB9EA);
+	color: white;
+}
+
+.fa-instagram {
+	background-image: linear-gradient(#5AB9EA,#5f4391);
+	color: white;
+}
+
+.carousel-inner{
+	background-image: linear-gradient(to right,#84CEEB, #5680e9)
+}
+
+.carousel{
+	background-color: transparent;
+}
+
+.activities{
+	background-color: #EAEAEA;
+	padding-bottom: 20px;
+}
+
+.carousel-item{
+	font-family: 'Lato', sans-serif;
+	font-weight: 200;
+	text-align: justify;
+}
+.carousel-item heading{
+	font-size: 35px;
+}
+
+.carousel-item parabody{
+	font-size: 25px;
+}
