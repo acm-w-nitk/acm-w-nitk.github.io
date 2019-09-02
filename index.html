@@ -16,8 +16,19 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
+<script type="text/javascript">
+	$(window).scroll(function() {     
+    var scroll = $(window).scrollTop();
+    if (scroll > 0) {
+        $("#header").addClass("active");
+    }
+    else {
+        $("#header").removeClass("active");
+    }
+});
+</script>
 <body>
-	<div class="header container-fluid">
+	<div class="header container-fluid" id="header">
 		<div class="row">
 			<div class="col-1 logo">
 				<img src="images/acm_logo.png" height="60" width="60" alt="ACM-W logo" style="float: left;">
@@ -67,6 +78,7 @@
 		</div>
 	</div> 
 	<div class="activities container-fluid" id="activites">
+		<br>
 		<div id="activity-carousel" class="carousel slide" data-ride="carousel">
 			<ul class="carousel-indicators">
 				<li data-target="#activity-carousel" data-slide-to="0" class="active"></li>
@@ -74,7 +86,7 @@
 				<li data-target="#activity-carousel" data-slide-to="2"></li>
 			</ul>
 
-		<div class="carousel-inner container" style="padding: 20px;">
+		<div class="carousel-inner container" style="padding: 20px; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);">
     		<div class="carousel-item active">
     			<div class="row">
     				<div class="col-5">
@@ -96,7 +108,7 @@
 					<div class="paragraph col-7">
 						<heading>Major Events</heading>
 						<br>
-						<parabody>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</parabody>
+						<parabody>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <a href="html/events.html" style="color: #00008b;text-decoration: none;">Find out more.</a></parabody>
 					</div>
 				</div>
 			</div>
@@ -123,7 +135,7 @@
 		</div>
 	</div>
 
-	<div class="paragraph container-fluid" style="background-color: #EAEAEA">
+	<div class="paragraph container-fluid" style="background-color: #EAEAEA; padding-bottom: 20px; padding-top: 20px;" >
 		<div class="officers container">
 			<heading style="align-content: center;">Meet our Club Officers</heading>
 			<br>
@@ -172,6 +184,10 @@
 			</div>
 			<br>
 		</div>
+		<br>
+		<div class="paragraph parabody" style="float: right; padding-right: 70px;">Developed by M K Apoorva with <3</div>
+		<br>
+		<br>
 	</div>
 </body>
 </html>
