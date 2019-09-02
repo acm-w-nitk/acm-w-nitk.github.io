@@ -42,7 +42,8 @@
 	color: #ffffff;
 }
 .main-header p1{
-	font-family: 'Fjalla One';
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
 	font-size: 150px;
 }
 
@@ -80,7 +81,7 @@
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
 	text-align: center;
-	background-image: linear-gradient(#ab8fde, #8860D0, #8860D0);
+	background-image: linear-gradient(#ab8fde, #8860D0,#8860D0);
 }
 
 hr {
