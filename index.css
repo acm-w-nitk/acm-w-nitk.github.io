@@ -80,7 +80,7 @@
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
 	text-align: center;
-	background-image: linear-gradient(#8860D0, #ab8fde);
+	background-image: linear-gradient(#ab8fde, #8860D0, #8860D0);
 }
 
 hr {
@@ -98,7 +98,7 @@ hr {
 .contact-us {
 	margin: auto;
 	padding-top: 20px;
-	background-image: linear-gradient(#5680e9, #84CEEB);
+	background-image: linear-gradient(#84CEEB, #5680e9 , #5680e9);
 }
 
 .card{
@@ -130,20 +130,16 @@ hr {
 	opacity: 0.5;
 }
 
-.fa-facebook {
+.officers .fa-facebook {
 	background-image: linear-gradient(#5AB9EA,#5AB9EA);
 	color: white;
 }
 
-.fa-linkedin {
+.officers .fa-linkedin {
 	background-image: linear-gradient(#5AB9EA,#5AB9EA);
 	color: white;
 }
 
-.fa-instagram {
-	background-image: linear-gradient(#5AB9EA,#5f4391);
-	color: white;
-}
 
 .carousel-inner{
 	background-image: linear-gradient(to right,#84CEEB, #5680e9)
@@ -171,3 +167,43 @@ hr {
 .carousel-item parabody{
 	font-size: 25px;
 }
+
+.contact-us .fa-facebook {
+	border-color: #ffffff;
+	border: 3px solid #ffffff;
+	color: white;
+	margin: 10px;
+}
+
+.contact-us .fa-linkedin {
+	border-color: #ffffff;
+	border: 3px solid #ffffff;
+	color: white;
+	margin: 10px;
+}
+
+.contact-us .fa-instagram {
+	border-color: #ffffff;
+	border: 3px solid #ffffff;
+	color: white;
+	margin: 10px;
+}
+
+.contact-us .fa-instagram:hover {
+	background: #ffffff;
+	color: #5959ff;
+	opacity: 0.7;
+}
+
+.contact-us .fa-facebook:hover {
+	background: #ffffff;
+	color: #5959ff;
+	opacity: 0.7;
+}
+
+.contact-us .fa-linkedin:hover {
+	background: #ffffff;
+	color: #5959ff;
+	opacity: 0.7;
+}
+
