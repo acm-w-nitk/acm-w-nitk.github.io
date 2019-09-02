@@ -6,12 +6,18 @@
 	background-color: #5f4391;
 	position: fixed;
 	z-index: 10;
+	
+}
+
+.header.active {
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.6);
 }
 
 .nav-options ul li a{
+	padding-top: 10px;
 	width: auto;
-	height: 100%;
-	font-size: 24px;
+	height: 110%;
+	font-size: 27px;
 	text-decoration: none;
 	color: #ffffff;
 	font-family: 'Advent Pro';
@@ -42,7 +48,8 @@
 	color: #ffffff;
 }
 .main-header p1{
-	font-family: 'Fjalla One';
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
 	font-size: 150px;
 }
 
@@ -63,6 +70,7 @@
 	align-items: center;
 	background-color: #ffffff;
 	box-shadow: 10;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .paragraph heading{
@@ -80,7 +88,8 @@
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
 	text-align: center;
-	background-image: linear-gradient(#ab8fde, #8860D0, #8860D0);
+	background-image: linear-gradient(#ab8fde, #8860D0,#8860D0);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 hr {
@@ -99,6 +108,7 @@ hr {
 	margin: auto;
 	padding-top: 20px;
 	background-image: linear-gradient(#84CEEB, #5680e9 , #5680e9);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .card{
@@ -145,8 +155,12 @@ hr {
 	background-image: linear-gradient(to right,#84CEEB, #5680e9)
 }
 
-.carousel{
+.carousel {
 	background-color: transparent;
+}
+
+.slide{
+	
 }
 
 .activities{
