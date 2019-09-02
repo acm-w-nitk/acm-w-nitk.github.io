@@ -1,8 +1,5 @@
 body {
-  background-image: url(../images/mentorship.jpg);
-  height: 100%
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url(../images/disc-opp-3.jpg);
   cursor: default;
 }
 div.paragraph {
@@ -39,8 +36,8 @@ div.transbox {
 }
 
 .button:hover{
-	border: 0px;
-	background-color: #ffffff;
-	color: #5959ff;
-	opacity: 0.8;
+  border: 0px;
+  background-color: #ffffff;
+  color: #565656;
+  opacity: 0.8;
 }
