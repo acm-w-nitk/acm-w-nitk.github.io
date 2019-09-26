@@ -13,6 +13,8 @@
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.6);
 }
 
+/* .header::after {} */
+
 .nav-options ul li a{
 	padding-top: 10px;
 	width: auto;
@@ -40,22 +42,12 @@
 	margin-top: 5px;
 }
 .main-header{
-	padding: 80px;
 	font-family: 'Advent Pro';
 	text-align: center;
-	height: 100vh;
 	background-image: linear-gradient(#5f4391,#5f4391,#8860D0, #8860D0,#8860D0, #ab8fde);
 	color: #ffffff;
 }
-.main-header p1{
-	font-family: 'Lato', sans-serif;
-	font-weight: 400;
-	font-size: 150px;
-}
 
-.main-header p2{
-	font-size: 75px;
-}
 
 .about{
 	align-items: center;
@@ -241,5 +233,51 @@ hr {
 	background-color: #ffffff;
 	color: #5959ff;
 	opacity: 0.8;
+}
+
+/* xs */
+@media (min-width: 0px) { 
+	.main-header {
+		padding: 20px;
+		height: 100vh;
+	}
+
+	.main-header p1{
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		font-size: 75px;
+	}
+	
+	.main-header p2{
+		font-size: 40px;
+	}
+}
+
+/* sm */
+@media (min-width: 576px) { 
+
+}
+
+/* md */
+@media (min-width: 768px) {
+
+}
+
+/* lg */
+@media (min-width: 992px) { 
+
+}
+
+/* xl */
+@media (min-width: 1200px) { 
+	.main-header p1{
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		font-size: 150px;
+	}
+	
+	.main-header p2{
+		font-size: 75px;
+	}
 }
 
