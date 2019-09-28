@@ -13,8 +13,6 @@
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.6);
 }
 
-/* .header::after {} */
-
 .nav-options ul li a{
 	padding-top: 10px;
 	width: auto;
@@ -47,7 +45,6 @@
 	background-image: linear-gradient(#5f4391,#5f4391,#8860D0, #8860D0,#8860D0, #ab8fde);
 	color: #ffffff;
 }
-
 
 .about{
 	align-items: center;
