@@ -40,21 +40,10 @@
 	margin-top: 5px;
 }
 .main-header{
-	padding: 80px;
 	font-family: 'Advent Pro';
 	text-align: center;
-	height: 100vh;
 	background-image: linear-gradient(#5f4391,#5f4391,#8860D0, #8860D0,#8860D0, #ab8fde);
 	color: #ffffff;
-}
-.main-header p1{
-	font-family: 'Lato', sans-serif;
-	font-weight: 400;
-	font-size: 150px;
-}
-
-.main-header p2{
-	font-size: 75px;
 }
 
 .about{
@@ -159,10 +148,6 @@ hr {
 	background-color: transparent;
 }
 
-.slide{
-	
-}
-
 .activities{
 	background-color: #EAEAEA;
 	padding-bottom: 20px;
@@ -180,6 +165,14 @@ hr {
 
 .carousel-item parabody{
 	font-size: 25px;
+}
+
+.carousel-control-prev {
+  margin-left: -6%;
+}
+
+.carousel-control-next {
+  margin-right: -6%;
 }
 
 .contact-us .fa-facebook {
@@ -241,5 +234,91 @@ hr {
 	background-color: #ffffff;
 	color: #5959ff;
 	opacity: 0.8;
+}
+.header-text {
+	margin-top:100px;
+}
+
+img {
+	width:100%;
+}
+
+.img-logo {
+	height:60px;
+	width:60px;
+}
+
+
+/* xs */
+@media (min-width: 0px) { 
+	.main-header {
+		padding: 20px;
+		height: 100vh;
+	}
+
+	.main-header p1{
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		font-size: 75px;
+	}
+	
+	.main-header p2{
+		font-size: 40px;
+	}
+}
+
+/* sm */
+@media (min-width: 576px) { 
+	.main-header p1{
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		font-size: 90px;
+	}
+	
+	.main-header p2{
+		font-size: 40px;
+	}
+
+}
+
+/* md */
+@media (min-width: 768px) {
+	.main-header p1{
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		font-size: 120px;
+	}
+	
+	.main-header p2{
+		font-size: 55px;
+	}
+
+}
+
+/* lg */
+@media (min-width: 992px) {
+	.main-header p1{
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		font-size: 140px;
+	}
+	
+	.main-header p2{
+		font-size: 60px;
+	} 
+
+}
+
+/* xl */
+@media (min-width: 1200px) { 
+	.main-header p1{
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		font-size: 140px;
+	}
+	
+	.main-header p2{
+		font-size: 60px;
+	}
 }
 
