@@ -62,15 +62,6 @@
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
-.paragraph heading{
-	text-align: center;
-	font-size: 35px;
-}
-
-.paragraph parabody{
-	font-size: 25px;
-	text-align: justify;
-}
 
 .officers{
 	padding: 30px;
@@ -248,33 +239,69 @@ img {
 	width:60px;
 }
 
+.paragraph heading{
+	text-align: center;
+}
+
+.paragraph parabody{
+	font-size: 25px;
+	text-align: justify;
+}
+
+.main-header p1{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+
+.main-header {
+	padding: 20px;
+	height: 100vh;
+}
+
 
 /* xs */
 @media (min-width: 0px) { 
-	.main-header {
-		padding: 20px;
-		height: 100vh;
+
+	.paragraph heading{
+		font-size: 30px;
+	}
+
+	.paragraph parabody{
+		font-size: 20px;
 	}
 
 	.main-header p1{
-		font-family: 'Lato', sans-serif;
-		font-weight: 400;
-		font-size: 75px;
+		font-size: 140px;
+	}
+
+	.main-header p1{
+		font-size: 50px;
 	}
 	
 	.main-header p2{
-		font-size: 40px;
+		font-size: 35px;
 	}
 }
 
 /* sm */
 @media (min-width: 576px) { 
-	.main-header p1{
-		font-family: 'Lato', sans-serif;
-		font-weight: 400;
-		font-size: 90px;
+
+	.paragraph heading{
+		font-size: 30px;
 	}
-	
+
+	.paragraph parabody{
+		font-size: 20px;
+	}
+
+	.main-header p1{
+		font-size: 140px;
+	}
+
+	.main-header p1{
+		font-size: 85px;
+	}
+
 	.main-header p2{
 		font-size: 40px;
 	}
@@ -283,9 +310,20 @@ img {
 
 /* md */
 @media (min-width: 768px) {
+
+	.paragraph heading{
+		font-size: 35px;
+	}
+
+	.paragraph parabody{
+		font-size: 25px;
+	}
+
 	.main-header p1{
-		font-family: 'Lato', sans-serif;
-		font-weight: 400;
+		font-size: 140px;
+	}
+
+	.main-header p1{
 		font-size: 120px;
 	}
 	
@@ -297,9 +335,20 @@ img {
 
 /* lg */
 @media (min-width: 992px) {
+
+	.paragraph heading{
+		font-size: 35px;
+	}
+
+	.paragraph parabody{
+		font-size: 25px;
+	}
+
 	.main-header p1{
-		font-family: 'Lato', sans-serif;
-		font-weight: 400;
+		font-size: 140px;
+	}
+
+	.main-header p1{
 		font-size: 140px;
 	}
 	
@@ -311,9 +360,16 @@ img {
 
 /* xl */
 @media (min-width: 1200px) { 
+
+	.paragraph heading{
+		font-size: 35px;
+	}
+
+	.paragraph parabody{
+		font-size: 25px;
+	}
+
 	.main-header p1{
-		font-family: 'Lato', sans-serif;
-		font-weight: 400;
 		font-size: 140px;
 	}
 	
