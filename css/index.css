@@ -40,6 +40,41 @@ html {
 	opacity: 0.7;
 }
 
+button.hamburger{
+  display: none;
+}
+
+@media only screen and (max-width: 500px){
+	.nav-options li{
+		display: none;
+	}
+	
+  button.hamburger{
+		align-self: flex-end;
+    display: block;
+    padding: 2vw;
+    outline: none!important;
+    font-size: 3vh;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    margin-top: 5px;
+	}
+	
+  .nav-options ul{
+    flex-direction: column;
+  }
+  
+  .nav-options li{
+    margin: 0;
+  }
+
+	.nav-options a{
+    display: block;
+  }
+}
+
 .logo{
 	margin-top: 5px;
 }
