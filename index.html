@@ -15,6 +15,7 @@
 	<!-- CDN Imports for CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
 	<!-- Local Imports for CSS -->
 	<link rel="stylesheet" href="css/index.css">
@@ -49,9 +50,9 @@
 	<div class="header container-fluid" id="header">
 		<div class="row">
 			<div class="col-1 logo">
-				<img src="images/acmw_logo.png" alt="ACM-W logo" class="img-logo"  style="float: left;">
+				<img src="images/acmw_logo.png" alt="ACM-W logo" class="img-logo animated bounce"  style="float: left;">
 			</div>
-			<div class="col-11 nav-options">
+			<div class="col-11 nav-options animated slideInRight">
 				<ul class="nav nav-pills justify-content-end">
 					<li class="nav-item">
 						<a class="nav-link" href="/">Home</a>
@@ -72,7 +73,7 @@
 	<div class="main-header">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="container-fluid header-text">
+				<div class="container-fluid header-text animated zoomIn">
 					<p1>ACM</p1>
 					<p1 style="color: #D8BFD8">W</p1>
 					<p1> NITK</p1>
@@ -87,9 +88,9 @@
 	<div class="about paragraph container-fluid" style="align-items: center; align-items: center;" id="about">
 		<div class="row container about-card" style="align-content: center; padding: 20px;">
 			<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
-				<img src="images/womenintech.jpg">
+				<img src="images/womenintech.jpg" class="wow fadeInLeft">
 			</div>
-			<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12 wow fadeInRight">
 				<heading>About Us</heading>
 				<br>
 				<parabody>ACM-W is an international organisation which supports and empowers women in all aspects of the computing field. We at ACM-W, NITK chapter wish to inspire and nurture young minds to step up and make a mark in the computing universe. Our aim is to promote learning and create a workspace where the ideas of young women can take shape and build the future.From providing a wide range of opportunities, to working in a larger community to advance contributions by creative minds, ACM-W NITK aims to be a stepping stone for women to be celebrated and create a difference.
@@ -110,10 +111,10 @@
 				<div class="carousel-item active">
 					<div class="row">
 						<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
-							<img src="images/slide0.jpg" alt="Discover opportunities" style="margin-top: 10%">
+							<img class="wow flipInX" src="images/slide0.jpg" alt="Discover opportunities" style="margin-top: 10%">
 						</div>
 						<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
-							<div class="paragraph">
+							<div class="paragraph wow lightSpeedIn">
 								<heading>Discover Opportunities</heading>
 								<br>
 								<parabody>Join ACM-W to make a difference and get your ideas sculpted into reality. From multiple scholarships, to competitions,
@@ -170,8 +171,8 @@
 			<br>
 			<div class="row" style="margin: 0 auto; align-content: center;">
 				<div class="card col-md-6 col-sm-12 col-xs-12">
-					<img src="images/apoorva.jpg" class="rounded-circle" alt="Chair" style="margin:auto;width:50%">
-					<div class="card-body">
+					<img src="images/apoorva.jpg" class="rounded-circle wow flipInY" alt="Chair" style="margin:auto;width:50%">
+					<div class="card-body wow zoomIn">
 						<name class="card-title">M K Apoorva</name>
 						<br>
 						<role class="card-text">Chair</role>
@@ -181,8 +182,8 @@
 					</div>
 				</div>
 				<div class="card col-md-6 col-sm-12 col-xs-12">
-					<img src="images/archita.jpeg" class="rounded-circle" alt="Vice Chair" style="margin:auto;width:50%">
-					<div class="card-body">
+					<img src="images/archita.jpeg" class="rounded-circle wow flipInY" alt="Vice Chair" style="margin:auto;width:50%">
+					<div class="card-body wow zoomIn">
 						<name class="card-title">Archita Sajjan</name>
 						<br>
 						<role class="card-text">Vice-Chair</role>
@@ -198,19 +199,19 @@
 
 	<div class="container-fluid" id="contact-us" style="background-color: #EAEAEA ; padding:20px;">
 		<div class="container contact-us">
-			<div class="paragraph" style="font-family: 'Lato', sans-serif; font-weight: 100;">
+			<div class="paragraph wow fadeInLeft" style="font-family: 'Lato', sans-serif; font-weight: 100;">
 				<heading>Say Hello!</heading>
 				<br>
 				<parabody>At ACM-W we're all ears. Feel free to drop in your feedback or suggestions, we'd love to hear from you. Leave us a mail or connect with us on our social media accounts.</parabody>
 			</div>
 			<br>
 			<br>
-			<div align="middle" class="button-container" style="width: 300px; text-decoration: none"><a
+			<div align="middle" class="button-container wow bounceInLeft" style="width: 300px; text-decoration: none"><a
 					href="mailto: acmw.nitk@gmail.com" class="email-button button-container"
 					style="text-decoration: none">acmw.nitk@gmail.com</a></div>
 			<br>
 			<br>
-			<div class="button-container" align="middle">
+			<div class="button-container wow bounceInUp" align="middle">
 				<a href="https://www.facebook.com/acmwnitk/" class="fa fa-facebook"></a>
 				<a href="https://www.linkedin.com/company/acm-w-nitk/" class="fa fa-linkedin"></a>
 				<a href="https://www.instagram.com/acmw_nitk/" class="fa fa-instagram"></a>
@@ -227,6 +228,10 @@
 	<!-- Local Imports for JS -->
 	<script type="text/javascript" src="js/header.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 
 </body>
 
