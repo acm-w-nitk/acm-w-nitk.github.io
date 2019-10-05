@@ -12,7 +12,9 @@
 .header.active {
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.6);
 }
-
+.options{
+	text-align: end;
+}
 .nav-options ul li a{
 	padding-top: 10px;
 	width: auto;
@@ -21,6 +23,7 @@
 	text-decoration: none;
 	color: #ffffff;
 	font-family: 'Advent Pro';
+	text-align: right;
 }
 
 .chapter_name{
