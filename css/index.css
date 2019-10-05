@@ -23,6 +23,10 @@
 	font-family: 'Advent Pro';
 }
 
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+}
+
 .chapter_name{
 	text-align: center;
 	font-size: 30px;
@@ -356,6 +360,10 @@ img {
 	.main-header p2{
 		font-size: 60px;
 	} 
+
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding: .5rem 1rem;
+	}
 
 }
 

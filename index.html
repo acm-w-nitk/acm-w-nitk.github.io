@@ -45,14 +45,20 @@
 	<meta name="theme-color" content="#ffffff">
 </head>
 
+
+
+
 <body>
-	<div class="header container-fluid" id="header">
-		<div class="row">
-			<div class="col-1 logo">
-				<img src="images/acmw_logo.png" alt="ACM-W logo" class="img-logo"  style="float: left;">
-			</div>
-			<div class="col-11 nav-options">
-				<ul class="nav nav-pills justify-content-end">
+	<nav class="navbar header navbar-expand-lg navbar-dark container-fluid" id="header">
+		<div class="navbar-brand logo">
+			<img src="images/acmw_logo.png" alt="ACM-W logo" class="img-logo"  style="float: left;">
+		</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse mr-auto nav-options justify-content-end" id="navbarSupportedContent">
+				<ul class="navbar-nav nav-pills">
 					<li class="nav-item">
 						<a class="nav-link" href="/">Home</a>
 					</li>
@@ -66,9 +72,12 @@
 						<a class="nav-link" href="#team">The Team</a>
 					</li>
 				</ul>
-			</div>
 		</div>
-	</div>
+</nav>
+
+
+
+
 	<div class="main-header">
 		<div class="row">
 			<div class="col-md-12">
