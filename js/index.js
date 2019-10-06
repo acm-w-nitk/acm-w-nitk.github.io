@@ -4,3 +4,6 @@ $('#activity-carousel').on('slide.bs.carousel', function (e) {
         height: nextH+100
     }, 500);
 });
+
+// Initiatlize AOS script
+AOS.init();
