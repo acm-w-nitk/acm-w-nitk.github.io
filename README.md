@@ -1,4 +1,4 @@
-![ACMW Logo](https://github.com/acm-w-nitk/acm-w-nitk.github.io/blob/master/images/acmw_logo_readme.png) 
+![ACMW Logo](/images/acmw_logo_readme.png) 
 # ACMW-Website (under development)
 Official Website for ACM-W NITK : https://acm-w-nitk.github.io/
 
