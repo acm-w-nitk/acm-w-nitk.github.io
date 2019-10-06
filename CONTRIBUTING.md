@@ -1,5 +1,5 @@
 # Contributing Guidelines
-* You can join our [gitter channel](https://gitter.im/ACM-W-NITK-Community/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link).
+* You can join our [gitter channel](https://gitter.im/ACM-W-NITK-Community/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link) to get started and discuss your contributions.
 * Remember that this is an inclusive community, committed to creating a safe, positive environment. Please read our community's [code of conduct](https://github.com/acm-w-nitk/acm-w-nitk.github.io/blob/master/Code-of-conduct.md) prior to contributing.
 
 ---
