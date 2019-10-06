@@ -1,6 +1,7 @@
 ## Problem
 
 Write down description of a problem (bug, feature request, etc.)
+Include relevant screenshots of the issue as well.
 
 ## Solution
 
