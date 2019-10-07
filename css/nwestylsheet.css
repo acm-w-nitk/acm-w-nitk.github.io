@@ -1,50 +1,50 @@
 
-#logo{
+#logo2{
 
 position: absolute;
-top: 25%;
+top: 30%;
 left: 50%;
 transform: translate(-50%,-50%);
 animation: fill 0.5s ease forwards 2s;
 }
 
-#logo path:nth-child(1){
+#logo2 path:nth-child(1){
 stroke-dasharray: 490.29px;
 stroke-dashoffset: 490.29px;
 animation: line-anim 2s ease forwards ; 
 
 }
-#logo path:nth-child(2){
+#logo2 path:nth-child(2){
     stroke-dasharray: 508.55px;
     stroke-dashoffset: 508.55px;
     animation: line-anim 2s ease forwards;
 }
-#logo path:nth-child(3){
+#logo2 path:nth-child(3){
     stroke-dasharray: 754.92px;
     stroke-dashoffset: 754.92px;
     animation: line-anim 2s ease forwards;
 }
-#logo path:nth-child(4){
+#logo2 path:nth-child(4){
     stroke-dasharray:  801.14px;
     stroke-dashoffset:  801.14px;
     animation: line-anim 2s ease forwards;
 }
-#logo path:nth-child(5){
+#logo2 path:nth-child(5){
     stroke-dasharray:  801.14px;
     stroke-dashoffset:  801.14px;
     animation: line-anim 2s ease forwards;
 }
-#logo path:nth-child(6){
+#logo2 path:nth-child(6){
     stroke-dasharray: 226.94px;
     stroke-dashoffset: 226.94px;
     animation: line-anim 2s ease forwards;
 }
-#logo path:nth-child(7){
+#logo2 path:nth-child(7){
     stroke-dasharray: 336.67px;
     stroke-dashoffset: 336.67px;
     animation: line-anim 2s ease forwards;
 }
-#logo path:nth-child(8){
+#logo2 path:nth-child(8){
     stroke-dasharray: 512.35px;
     stroke-dashoffset: 512.35px;
     animation: line-anim 2s ease forwards;
