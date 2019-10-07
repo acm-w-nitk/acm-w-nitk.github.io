@@ -6,7 +6,7 @@
 	height: 100vh;
 	background-color: #b19cd9;
 	position: fixed;
-	box-shadow: 0 0 5px 5px rgba(0,0,0,0.4);
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 div.paragraph {
@@ -15,12 +15,12 @@ div.paragraph {
 	font-family: 'Lato', sans-serif;
 }
 
-.paragraph .heading{
+.paragraph .heading {
 	text-align: center;
 	font-size: 35px;
 }
 
-.paragraph .parabody{
+.paragraph .parabody {
 	font-size: 25px;
 	text-align: justify;
 }
@@ -39,13 +39,14 @@ div.paragraph {
 }
 
 .card:hover .card-inner {
-  transform: rotateY(180deg);
+	transform: rotateY(180deg);
 }
 
 .button-container {
 	width: 100%;
 	margin: 0 auto;
 }
+
 .reg-button {
 	background-color: #8860D0;
 	color: white;
@@ -56,11 +57,10 @@ div.paragraph {
 	text-align: center;
 	width: 180px;
 	border-radius: 10px;
-  	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 .reg-button:hover {
 	opacity: 0.8;
-	 box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.6);
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.6);
 }
-
