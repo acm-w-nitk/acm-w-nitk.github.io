@@ -1,4 +1,4 @@
-# ACMW-Website (under development)
+# ACM-W NITK Website (under development)
 Official Website for ACM-W NITK: https://acm-w-nitk.github.io/
 
 Read our wiki before contributing: [Wiki](https://github.com/acm-w-nitk/acm-w-nitk.github.io/wiki)
