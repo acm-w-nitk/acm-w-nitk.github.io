@@ -6,7 +6,25 @@
 	background-color: #b19cd9;
 	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.4);
 	height: 100vh;
+}
+
+@media only screen and (max-width: 991px) {
+	.about-events {
+		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+		height: auto;
+		margin: 0 10px 30px 10px;
+		padding: 30px;
+	}
+}
+
+.p-fixed {
 	position: fixed;
+}
+
+@media only screen and (max-width: 991px) {
+	.p-fixed {
+		position: static;
+	}
 }
 
 div.paragraph {
@@ -28,9 +46,18 @@ div.paragraph {
 .card {
 	background-color: #84CEEB;
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-	height: 100vh;
-	margin: 10px;
+	margin: 10px 10px 30px 10px;
 	padding: 30px;
+}
+
+.card:last-of-type {
+	margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 991px) {
+	.card:last-of-type {
+		margin-bottom: 30px;
+	}
 }
 
 .img-box {
@@ -43,9 +70,11 @@ div.paragraph {
 }
 
 .button-container {
+	cursor: pointer;
 	margin: 0 auto;
 	width: 100%;
 }
+
 .reg-button {
 	background-color: #8860D0;
 	border-radius: 10px;
@@ -55,8 +84,9 @@ div.paragraph {
 	font-size: 20px;
 	font-weight: 100;
 	padding: 14px;
-	text-align: center;
-  	width: 180px;
+  	text-align: center;
+	transition: opacity .2s linear, box-shadow .2s linear;
+	width: 180px;
 }
 
 .reg-button:hover {
@@ -64,3 +94,12 @@ div.paragraph {
 	opacity: 0.8;
 }
 
+@media only screen and (max-width: 991px) {
+	.event-even .reg-button {
+		margin-bottom: 30px;
+	}
+}
+
+.mx-auto {
+	margin: 0 auto;
+}
