@@ -3,39 +3,39 @@
 }
 
 .about-events {
-	height: 100vh;
 	background-color: #b19cd9;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.4);
+	height: 100vh;
 	position: fixed;
-	box-shadow: 0 0 5px 5px rgba(0,0,0,0.4);
 }
 
 div.paragraph {
-	padding: 20px;
-	font-weight: 100;
 	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	padding: 20px;
 }
 
-.paragraph .heading{
-	text-align: center;
+.paragraph .heading {
 	font-size: 35px;
+	text-align: center;
 }
 
-.paragraph .parabody{
+.paragraph .parabody {
 	font-size: 25px;
 	text-align: justify;
 }
 
 .card {
-	height: 100vh;
 	background-color: #84CEEB;
-	padding: 30px;
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+	height: 100vh;
 	margin: 10px;
+	padding: 30px;
 }
 
 .img-box {
-	width: 100%;
 	height: 100%;
+	width: 100%;
 }
 
 .card:hover .card-inner {
@@ -43,24 +43,24 @@ div.paragraph {
 }
 
 .button-container {
-	width: 100%;
 	margin: 0 auto;
+	width: 100%;
 }
 .reg-button {
 	background-color: #8860D0;
-	color: white;
-	padding: 14px;
-	font-family: 'Lato', sans-serif;
-	font-weight: 100;
-	font-size: 20px;
-	text-align: center;
-	width: 180px;
 	border-radius: 10px;
-  	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	padding: 14px;
+	text-align: center;
+  	width: 180px;
 }
 
 .reg-button:hover {
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.6);
 	opacity: 0.8;
-	 box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.6);
 }
 
