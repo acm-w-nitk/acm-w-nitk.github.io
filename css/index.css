@@ -10,7 +10,7 @@ html {
 	background-color: #5f4391;
 	position: fixed;
 	z-index: 10;
-	
+
 }
 
 .header.active {
@@ -48,7 +48,7 @@ button.hamburger{
 	.nav-options li{
 		display: none;
 	}
-	
+
   button.hamburger{
 		align-self: flex-end;
     display: block;
@@ -61,11 +61,11 @@ button.hamburger{
     color: #ffffff;
     margin-top: 5px;
 	}
-	
+
   .nav-options ul{
     flex-direction: column;
   }
-  
+
   .nav-options li{
     margin: 0;
   }
@@ -147,12 +147,15 @@ hr {
 	font-size: 20px;
 }
 
-.fa { 
+.fa {
 	padding: 15px;
 	width: 50px;
 	height: 50px;
-	text-decoration: none;
 	border-radius: 50%;
+}
+
+a.fa{
+  text-decoration: none; /*Removed underline from social media icons*/
 }
 
 .fa:hover {
@@ -270,7 +273,7 @@ hr {
 }
 
 img {
-	
+
 	width:100%;
 }
 
@@ -300,7 +303,7 @@ img {
 
 
 /* xs */
-@media (min-width: 0px) { 
+@media (min-width: 0px) {
 
 	.paragraph heading{
 		font-size: 30px;
@@ -317,14 +320,14 @@ img {
 	.main-header p1{
 		font-size: 50px;
 	}
-	
+
 	.main-header p2{
 		font-size: 35px;
 	}
 }
 
 /* sm */
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
 
 	.paragraph heading{
 		font-size: 30px;
@@ -366,7 +369,7 @@ img {
 	.main-header p1{
 		font-size: 120px;
 	}
-	
+
 	.main-header p2{
 		font-size: 55px;
 	}
@@ -391,15 +394,15 @@ img {
 	.main-header p1{
 		font-size: 140px;
 	}
-	
+
 	.main-header p2{
 		font-size: 60px;
-	} 
+	}
 
 }
 
 /* xl */
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
 
 	.paragraph heading{
 		font-size: 35px;
@@ -412,9 +415,8 @@ img {
 	.main-header p1{
 		font-size: 140px;
 	}
-	
+
 	.main-header p2{
 		font-size: 60px;
 	}
 }
-
