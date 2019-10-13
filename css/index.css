@@ -1,114 +1,112 @@
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
-.body{
-	background-color: #EAEAEA;
+.body {
+	background-color: #eaeaea;
 }
 
-.header{
-	background-color: #5f4391;
+.header {
+	background: linear-gradient(180deg, #673ab7, #512da8);
 	position: fixed;
 	z-index: 10;
-	
 }
 
 .header.active {
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+	box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.6);
 }
 
-.nav-options ul li a{
+.nav-options ul li a {
 	padding-top: 10px;
 	width: auto;
 	height: 110%;
 	font-size: 27px;
 	text-decoration: none;
 	color: #ffffff;
-	font-family: 'Advent Pro';
+	font-family: "Advent Pro";
 }
 
-.chapter_name{
+.chapter_name {
 	text-align: center;
 	font-size: 30px;
-	font-family: 'Advent Pro';
+	font-family: "Advent Pro";
 	text-decoration: none;
 	color: #ffffff;
 }
 
 .nav-options ul > li a:hover {
-	background-color:#ab8fde;
+	background-color: #ab8fde;
 	opacity: 0.7;
 }
 
-button.hamburger{
-  display: none;
+button.hamburger {
+	display: none;
 }
 
-@media only screen and (max-width: 500px){
-	.nav-options li{
+@media only screen and (max-width: 500px) {
+	.nav-options li {
 		display: none;
 	}
-	
-  button.hamburger{
-		align-self: flex-end;
-    display: block;
-    padding: 2vw;
-    outline: none!important;
-    font-size: 3vh;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    color: #ffffff;
-    margin-top: 5px;
-	}
-	
-  .nav-options ul{
-    flex-direction: column;
-  }
-  
-  .nav-options li{
-    margin: 0;
-  }
 
-	.nav-options a{
-    display: block;
-  }
+	button.hamburger {
+		align-self: flex-end;
+		display: block;
+		padding: 2vw;
+		outline: none !important;
+		font-size: 3vh;
+		background-color: transparent;
+		border: none;
+		cursor: pointer;
+		color: #ffffff;
+		margin-top: 5px;
+	}
+
+	.nav-options ul {
+		flex-direction: column;
+	}
+
+	.nav-options li {
+		margin: 0;
+	}
+
+	.nav-options a {
+		display: block;
+	}
 }
 
-.logo{
+.logo {
 	margin-top: 5px;
 }
-.main-header{
-	font-family: 'Advent Pro';
+.main-header {
+	font-family: "Advent Pro";
 	text-align: center;
-	background-image: linear-gradient(#5f4391,#5f4391,#8860D0, #8860D0,#8860D0, #ab8fde);
+	background: linear-gradient(180deg, #673ab7, #512da8);
 	color: #ffffff;
 }
 
-.about{
+.about {
 	align-items: center;
-	font-family: 'Lato', sans-serif;
+	font-family: "Lato", sans-serif;
 	font-weight: 100;
 	padding: 25px;
-	background-color: #EAEAEA;
+	background: #eaeaea;
 }
 
-.about-card{
+.about-card {
 	margin: auto;
 	align-items: center;
-	background-color: #ffffff;
+	background: linear-gradient(225deg, #00ffbf, #5680e9);
 	box-shadow: 10;
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.25);
 }
 
-
-.officers{
+.officers {
 	padding: 30px;
-	font-family: 'Lato', sans-serif;
+	font-family: "Lato", sans-serif;
 	font-weight: 100;
 	text-align: center;
-	background-image: linear-gradient(#ab8fde, #8860D0,#8860D0);
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+	background: linear-gradient(225deg, #00ffbf, #5680e9);
+	box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.25);
 }
 
 hr {
@@ -126,33 +124,34 @@ hr {
 .contact-us {
 	margin: auto;
 	padding-top: 20px;
-	background-image: linear-gradient(#84CEEB, #5680e9 , #5680e9);
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+	background: linear-gradient(180deg, #673ab7, #512da8);
+	box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.25);
 }
 
-.card{
+.card {
 	border-color: transparent;
 	background-color: transparent;
 }
 
-.card-body{
-	font-family: 'Lato', sans-serif;
+.card-body {
+	font-family: "Lato", sans-serif;
 }
 
-.card-body name{
+.card-body name {
 	font-size: 30px;
 }
 
-.card-body role{
+.card-body role {
 	font-size: 20px;
 }
 
-.fa { 
+.fa {
 	padding: 15px;
 	width: 50px;
 	height: 50px;
 	text-decoration: none;
 	border-radius: 50%;
+	border: 3px solid #ffffff;
 }
 
 .fa:hover {
@@ -160,49 +159,52 @@ hr {
 }
 
 .officers .fa-facebook {
-	background-image: linear-gradient(#5AB9EA,#5AB9EA);
+	background-image: linear-gradient(#5ab9ea, #5ab9ea);
 	color: white;
 }
 
 .officers .fa-linkedin {
-	background-image: linear-gradient(#5AB9EA,#5AB9EA);
+	background-image: linear-gradient(#5ab9ea, #5ab9ea);
 	color: white;
 }
 
-
-.carousel-inner{
-	background-image: linear-gradient(to right, #5680e9,#84CEEB)
+.carousel-inner {
+	background: linear-gradient(225deg, #00ffbf, #5680e9);
 }
 
 .carousel {
 	background-color: transparent;
 }
 
-.activities{
-	background-color: #EAEAEA;
+.activities {
+	background-color: #eaeaea;
 	padding-bottom: 20px;
 }
 
-.carousel-item{
+.carousel-item {
 	padding: 20px;
-	font-family: 'Lato', sans-serif;
+	font-family: "Lato", sans-serif;
 	font-weight: 200;
 	text-align: justify;
 }
-.carousel-item heading{
+.carousel-item heading {
 	font-size: 35px;
 }
 
-.carousel-item parabody{
+.carousel-item parabody {
 	font-size: 25px;
 }
 
 .carousel-control-prev {
-  margin-left: -6%;
+	margin-left: -6%;
 }
 
 .carousel-control-next {
-  margin-right: -6%;
+	margin-right: -6%;
+}
+
+.fa {
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 .contact-us .fa-facebook {
@@ -245,51 +247,54 @@ hr {
 }
 
 .email-button {
-  border: 3px solid #ffffff;
-  color: #ffffff;
-  padding: 14px;
-  border-style: solid;
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  text-align: center;
-  font-style: bold;
-  width: 180px;
-  text-decoration: none;
-  border-radius: 100px;
-  opacity: 0.9;
+	border: 0px;
+	color: #222;
+	padding: 10px 18px;
+	border-style: solid;
+	font-family: "Lato", sans-serif;
+	font-size: 20px;
+	text-align: center;
+	font-style: bold;
+	width: 180px;
+	text-decoration: none;
+	border-radius: 100px;
+	opacity: 1;
+	background-color: #c4c4c4;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
 
-.email-button:hover{
-	border: 0px;
-	background-color: #ffffff;
-	color: #5959ff;
-	opacity: 0.8;
+.email-button:hover {
+	color: #fff;
+	background-color: #222;
+	opacity: 1;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
 }
 .header-text {
-	margin-top:100px;
+	margin-top: 100px;
 }
 
 img {
-	
-	width:100%;
+	width: 100%;
 }
 
 .img-logo {
-	height:60px;
-	width:60px;
+	height: 60px;
+	width: 60px;
 }
 
-.paragraph heading{
+.paragraph heading {
+	color: #fff;
 	text-align: center;
 }
 
-.paragraph parabody{
+.paragraph parabody {
+	color: #f1f1f1;
 	font-size: 25px;
 	text-align: justify;
 }
 
-.main-header p1{
-	font-family: 'Lato', sans-serif;
+.main-header p1 {
+	font-family: "Lato", sans-serif;
 	font-weight: 400;
 }
 
@@ -298,123 +303,113 @@ img {
 	height: 100vh;
 }
 
-
 /* xs */
-@media (min-width: 0px) { 
-
-	.paragraph heading{
+@media (min-width: 0px) {
+	.paragraph heading {
 		font-size: 30px;
 	}
 
-	.paragraph parabody{
+	.paragraph parabody {
 		font-size: 20px;
 	}
 
-	.main-header p1{
+	.main-header p1 {
 		font-size: 140px;
 	}
 
-	.main-header p1{
+	.main-header p1 {
 		font-size: 50px;
 	}
-	
-	.main-header p2{
+
+	.main-header p2 {
 		font-size: 35px;
 	}
 }
 
 /* sm */
-@media (min-width: 576px) { 
-
-	.paragraph heading{
+@media (min-width: 576px) {
+	.paragraph heading {
 		font-size: 30px;
 	}
 
-	.paragraph parabody{
+	.paragraph parabody {
 		font-size: 20px;
 	}
 
-	.main-header p1{
+	.main-header p1 {
 		font-size: 140px;
 	}
 
-	.main-header p1{
+	.main-header p1 {
 		font-size: 85px;
 	}
 
-	.main-header p2{
+	.main-header p2 {
 		font-size: 40px;
 	}
-
 }
 
 /* md */
 @media (min-width: 768px) {
-
-	.paragraph heading{
+	.paragraph heading {
 		font-size: 35px;
 	}
 
-	.paragraph parabody{
+	.paragraph parabody {
 		font-size: 25px;
 	}
 
-	.main-header p1{
+	.main-header p1 {
 		font-size: 140px;
 	}
 
-	.main-header p1{
+	.main-header p1 {
 		font-size: 120px;
 	}
-	
-	.main-header p2{
+
+	.main-header p2 {
 		font-size: 55px;
 	}
-
 }
 
 /* lg */
 @media (min-width: 992px) {
-
-	.paragraph heading{
+	.paragraph heading {
 		font-size: 35px;
 	}
 
-	.paragraph parabody{
+	.paragraph parabody {
 		font-size: 25px;
 	}
 
-	.main-header p1{
+	.main-header p1 {
 		font-size: 140px;
 	}
 
-	.main-header p1{
+	.main-header p1 {
 		font-size: 140px;
 	}
-	
-	.main-header p2{
+
+	.main-header p2 {
 		font-size: 60px;
-	} 
-
+	}
 }
 
 /* xl */
-@media (min-width: 1200px) { 
-
-	.paragraph heading{
+@media (min-width: 1200px) {
+	.paragraph heading {
 		font-size: 35px;
 	}
 
-	.paragraph parabody{
+	.paragraph parabody {
 		font-size: 25px;
 	}
 
-	.main-header p1{
+	.main-header p1 {
 		font-size: 140px;
 	}
-	
-	.main-header p2{
+
+	.main-header p2 {
 		font-size: 60px;
 	}
 }
-
