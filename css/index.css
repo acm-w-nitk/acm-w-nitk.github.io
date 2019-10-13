@@ -101,7 +101,6 @@ button.hamburger{
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
-
 .officers{
 	padding: 30px;
 	font-family: 'Lato', sans-serif;
@@ -162,16 +161,25 @@ a.fa{
 	opacity: 0.5;
 }
 
+.officers .fa {
+	padding: 12px 0px;
+    width: 40px;
+	height: 40px;
+	margin: 0 5px;
+	box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+
+}
 .officers .fa-facebook {
-	background-image: linear-gradient(#5AB9EA,#5AB9EA);
-	color: white;
+	color: #fff;
+	background:  #3b5998!important;
+	text-align: center;
 }
 
 .officers .fa-linkedin {
-	background-image: linear-gradient(#5AB9EA,#5AB9EA);
-	color: white;
+	color: #fff;
+	background: #0082ca!important;
+	text-align: center;
 }
-
 
 .carousel-inner{
 	background-image: linear-gradient(to right, #5680e9,#84CEEB)
@@ -300,7 +308,6 @@ img {
 	padding: 20px;
 	height: 100vh;
 }
-
 
 /* xs */
 @media (min-width: 0px) {
