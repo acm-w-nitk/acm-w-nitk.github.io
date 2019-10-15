@@ -1,0 +1,16 @@
+.testimonial{
+	padding: 30px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	text-align: center;
+	background-image: linear-gradient(#ab8fde, #8860D0,#8860D0);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+.testimonial_image{
+    width: 20%;
+    height: 20%;
+}
+.testimonial_section{
+    width: 60%;
+    margin: auto 20%;
+}
