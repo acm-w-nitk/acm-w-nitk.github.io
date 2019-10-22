@@ -6,3 +6,12 @@ $(window).scroll(function () {
         $("#header").removeClass("active");
     }
 });
+
+$("button.hamburger").click(function(){
+    if($("button.hamburger").text() == "🞬"){
+        $("button.hamburger").text("☰");
+    }else{
+        $("button.hamburger").text("🞬");
+    }
+    $(".nav-options li").toggle("slow");
+});
