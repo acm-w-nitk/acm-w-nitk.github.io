@@ -3,39 +3,68 @@
 }
 
 .about-events {
-	height: 100vh;
 	background-color: #b19cd9;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.4);
+	height: 100vh;
+}
+
+@media only screen and (max-width: 991px) {
+	.about-events {
+		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+		height: auto;
+		margin: 0 10px 30px 10px;
+		padding: 30px;
+	}
+}
+
+.p-fixed {
 	position: fixed;
 	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.4);
 }
 
+@media only screen and (max-width: 991px) {
+	.p-fixed {
+		position: static;
+	}
+}
+
 div.paragraph {
-	padding: 20px;
-	font-weight: 100;
 	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	padding: 20px;
 }
 
 .paragraph .heading {
 	text-align: center;
 	font-size: 35px;
+	text-align: center;
 }
 
 .paragraph .parabody {
 	font-size: 25px;
-	text-align: justify;
+	text-align: left;
 }
 
 .card {
-	height: 100vh;
 	background-color: #84CEEB;
-	padding: 30px;
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-	margin: 10px;
+	margin: 10px 10px 30px 10px;
+	padding: 30px;
+}
+
+.card:last-of-type {
+	margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 991px) {
+	.card:last-of-type {
+		margin-bottom: 30px;
+	}
 }
 
 .img-box {
-	width: 100%;
 	height: 100%;
+	width: 100%;
 }
 
 .card:hover .card-inner {
@@ -43,24 +72,38 @@ div.paragraph {
 }
 
 .button-container {
-	width: 100%;
+	cursor: pointer;
 	margin: 0 auto;
+	width: 100%;
 }
 
 .reg-button {
 	background-color: #8860D0;
+	border-radius: 10px;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
 	color: white;
-	padding: 14px;
 	font-family: 'Lato', sans-serif;
-	font-weight: 100;
 	font-size: 20px;
-	text-align: center;
+	font-weight: 100;
+	padding: 14px;
+ 	text-align: center;
+	transition: opacity .2s linear, box-shadow .2s linear;
 	width: 180px;
 	border-radius: 10px;
 	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 .reg-button:hover {
-	opacity: 0.8;
 	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.6);
+	opacity: 0.8;
+}
+
+@media only screen and (max-width: 991px) {
+	.event-even .reg-button {
+		margin-bottom: 30px;
+	}
+}
+
+.mx-auto {
+	margin: 0 auto;
 }

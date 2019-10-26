@@ -7,8 +7,9 @@ body {
 }
 
 div.paragraph {
-  font-weight: 100;
+	font-weight: 100;
   font-family: 'Lato', sans-serif;
+  text-align:  left;
 }
 
 div.transbox {

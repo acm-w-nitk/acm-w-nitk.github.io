@@ -47,9 +47,9 @@ button.hamburger {
 	.nav-options li {
 		display: none;
 	}
-
-	button.hamburger {
-		align-self: flex-end;
+  
+  button.hamburger{
+    align-self: flex-end;
 		display: block;
 		padding: 2vw;
 		outline: none !important;
@@ -64,6 +64,14 @@ button.hamburger {
 	.nav-options ul {
 		flex-direction: column;
 	}
+  
+  .nav-options ul{
+    flex-direction: column;
+  }
+
+  .nav-options li{
+    margin: 0;
+  }
 
 	.nav-options li {
 		margin: 0;
@@ -152,6 +160,10 @@ hr {
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
+}
+
+a.fa{
+  text-decoration: none; /*Removed underline from social media icons*/
 }
 
 .fa:hover {
@@ -272,7 +284,6 @@ hr {
 }
 
 img {
-
 	width: 100%;
 }
 
@@ -319,8 +330,8 @@ img {
 	.main-header p1 {
 		font-size: 50px;
 	}
-
-	.main-header p2 {
+  
+	.main-header p2{
 		font-size: 35px;
 	}
 }
@@ -369,7 +380,7 @@ img {
 		font-size: 120px;
 	}
 
-	.main-header p2 {
+	.main-header p2{
 		font-size: 55px;
 	}
 
@@ -394,7 +405,7 @@ img {
 		font-size: 140px;
 	}
 
-	.main-header p2 {
+	.main-header p2{
 		font-size: 60px;
 	}
 
@@ -415,7 +426,7 @@ img {
 		font-size: 140px;
 	}
 
-	.main-header p2 {
+	.main-header p2{
 		font-size: 60px;
 	}
 }
