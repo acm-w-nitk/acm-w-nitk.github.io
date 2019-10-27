@@ -2,8 +2,20 @@
 Official Website for ACM-W NITK: https://acm-w-nitk.github.io/
 
 Read our wiki before contributing: [Wiki](https://github.com/acm-w-nitk/acm-w-nitk.github.io/wiki)
-
 <br>
+
+# Contributors ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/apoorva-mk"><img src="https://avatars1.githubusercontent.com/u/42450012?s=400&v=4" width="80px;" alt="Apoorva M K"/><br /><sub><b>Apoorva M K</b></sub></a><br /><a href="" title="Code">💻</a> <a href="#ideas-dkundel" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/isunitha98selvan"><img src="https://avatars2.githubusercontent.com/u/25410832?s=400&v=4" width="80px;" alt="Sunitha Selvan"/><br /><sub><b>Sunitha Selvan</b></sub></a><br /><a href="" title="Code">💻</a></td>
+     <td align="center"><a href="https://github.com/lkcbharath"><img src="https://avatars1.githubusercontent.com/u/31381830?s=400&v=4" width="80px;" alt="LKC Bharath"/><br /><sub><b>LKC Bharath</b></sub></a><br /><a href="" title="Code">💻</a></td>
+  </tr>
+  
+</table>
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
