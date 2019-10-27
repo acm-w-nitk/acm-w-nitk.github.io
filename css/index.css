@@ -43,8 +43,8 @@ button.hamburger {
 	display: none;
 }
 
-@media only screen and (max-width: 500px) {
-	.nav-options li {
+@media only screen and (max-width: 576px){
+	.nav-options li{
 		display: none;
 	}
   
@@ -82,7 +82,15 @@ button.hamburger {
 	}
 }
 
-.logo {
+@media only screen and (max-width: 409px){
+	button.hamburger{
+	font-size: 3vh;
+	margin-right: -40px;
+    margin-top: -70px;
+	}
+}
+
+.logo{
 	margin-top: 5px;
 }
 
