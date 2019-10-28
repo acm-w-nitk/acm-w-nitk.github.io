@@ -134,13 +134,14 @@ hr {
 .contact-us {
 	margin: auto;
 	padding-top: 20px;
-	background-image: linear-gradient(#84CEEB, #5680e9 , #5680e9);
+	background-image: linear-gradient(#ab8fde, #8860D0,#8860D0);
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .card{
 	border-color: transparent;
 	background-color: transparent;
+    text-align: center;
 }
 
 .card-body{
