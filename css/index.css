@@ -428,3 +428,16 @@ img {
 		font-size: 60px;
 	}
 }
+
+#sectionn{
+	width: 100%;
+	float: left;
+	margin : 20px auto;
+	text-align: center;
+	
+ }
+ #accordion{
+	margin : 30px auto;
+	
+	height: auto;
+  }
