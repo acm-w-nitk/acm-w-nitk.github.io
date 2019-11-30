@@ -3,14 +3,13 @@ html {
 }
 
 .body{
-	background-color: #EAEAEA;
+	background-color: #cfe5cc;
 }
 
 .header{
-	background-color: #5f4391;
+	background-color: #f15a42;
 	position: fixed;
 	z-index: 10;
-
 }
 
 .header.active {
@@ -18,26 +17,26 @@ html {
 }
 
 .nav-options ul li a{
-	padding-top: 10px;
+	padding-top: 21px;
+	padding-bottom: 17px;
 	width: auto;
 	height: 110%;
-	font-size: 27px;
+	font-size: 14px;
 	text-decoration: none;
 	color: #ffffff;
-	font-family: 'Advent Pro';
+	font-family: 'Raleway', sans-serif;
 }
 
 .chapter_name{
 	text-align: center;
 	font-size: 30px;
-	font-family: 'Advent Pro';
 	text-decoration: none;
 	color: #ffffff;
 }
 
 .nav-options ul > li a:hover {
-	background-color:#ab8fde;
-	opacity: 0.7;
+	background-color: #fac92C;
+	color: #f15a42;
 }
 
 button.hamburger{
@@ -50,7 +49,7 @@ button.hamburger{
 	}
 
   button.hamburger{
-		align-self: flex-end;
+	align-self: flex-end;
     display: block;
     padding: 2vw;
     outline: none!important;
@@ -87,26 +86,43 @@ button.hamburger{
 	margin-top: 5px;
 }
 .main-header{
-	font-family: 'Advent Pro';
+	font-family: 'Raleway', sans-serif;
 	text-align: center;
-	background-image: linear-gradient(#5f4391,#5f4391,#8860D0, #8860D0,#8860D0, #ab8fde);
+	background-color: #1b4793;
 	color: #ffffff;
 }
 
 .about{
 	align-items: center;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Alatsi', sans-serif;
 	font-weight: 100;
-	padding: 25px;
-	background-color: #EAEAEA;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+	padding-right: 80px;
+	background-color: #cfe5cc;
 }
+
+.about heading {
+	font-family: 'Alatsi', sans-serif;
+	padding-bottom: 10px;
+	color: #1b4793;
+	border-bottom: 5px solid #f15a42; 
+	font-size: 35px;
+}
+
+.about parabody {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: #1b4793;
+	text-align: justify;
+}
+
+
 
 .about-card{
 	margin: auto;
 	align-items: center;
-	background-color: #ffffff;
-	box-shadow: 10;
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 
@@ -182,7 +198,7 @@ a.fa{
 
 
 .carousel-inner{
-	background-image: linear-gradient(to right, #5680e9,#84CEEB)
+	background-color: #2178ae;
 }
 
 .carousel {
@@ -190,7 +206,7 @@ a.fa{
 }
 
 .activities{
-	background-color: #EAEAEA;
+	background-color: #cfe5cc;
 	padding-bottom: 20px;
 }
 
@@ -216,24 +232,24 @@ a.fa{
   margin-right: -6%;
 }
 
-.contact-us .fa-facebook {
-	border-color: #ffffff;
-	border: 3px solid #ffffff;
-	color: white;
+.fa-facebook {
+	border-color: #1b4793;
+	border: 1px solid;
+	color: #1b4793;
 	margin: 10px;
 }
 
-.contact-us .fa-linkedin {
-	border-color: #ffffff;
-	border: 3px solid #ffffff;
-	color: white;
+.fa-linkedin {
+	border-color: #1b4793;
+	border: 1px solid;
+	color: #1b4793;
 	margin: 10px;
 }
 
-.contact-us .fa-instagram {
-	border-color: #ffffff;
-	border: 3px solid #ffffff;
-	color: white;
+.fa-instagram {
+	border-color: #1b4793;
+	border: 1px solid;
+	color: #1b4793;
 	margin: 10px;
 }
 
@@ -256,18 +272,15 @@ a.fa{
 }
 
 .email-button {
-  border: 3px solid #ffffff;
-  color: #ffffff;
+  background-color: #1b4793;
+  color : white;
   padding: 14px;
-  border-style: solid;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   text-align: center;
   font-style: bold;
   width: 180px;
   text-decoration: none;
-  border-radius: 100px;
-  opacity: 0.9;
 }
 
 .email-button:hover{
@@ -288,25 +301,32 @@ img {
 .img-logo {
 	height:60px;
 	width:60px;
+	padding: 5px;
 }
 
 .paragraph heading{
+	font-family: 'Alatsi', sans-serif;
+	padding-bottom: 10px;
+	color: #1b4793;
+	border-bottom: 5px solid #f15a42; 
 	text-align: center;
 }
 
 .paragraph parabody{
 	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: #1b4793;
 	text-align: justify;
 }
 
 .main-header p1{
 	font-family: 'Lato', sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 .main-header {
 	padding: 20px;
-	height: 100vh;
 }
 
 
@@ -319,10 +339,6 @@ img {
 
 	.paragraph parabody{
 		font-size: 20px;
-	}
-
-	.main-header p1{
-		font-size: 140px;
 	}
 
 	.main-header p1{
@@ -345,12 +361,9 @@ img {
 		font-size: 20px;
 	}
 
-	.main-header p1{
-		font-size: 140px;
-	}
 
 	.main-header p1{
-		font-size: 85px;
+		font-size: 100px;
 	}
 
 	.main-header p2{
@@ -370,12 +383,9 @@ img {
 		font-size: 25px;
 	}
 
-	.main-header p1{
-		font-size: 140px;
-	}
 
 	.main-header p1{
-		font-size: 120px;
+		font-size: 80px;
 	}
 
 	.main-header p2{
@@ -392,15 +402,11 @@ img {
 	}
 
 	.paragraph parabody{
-		font-size: 25px;
+		font-size: 15px;
 	}
 
 	.main-header p1{
-		font-size: 140px;
-	}
-
-	.main-header p1{
-		font-size: 140px;
+		font-size: 80px;
 	}
 
 	.main-header p2{
@@ -421,10 +427,56 @@ img {
 	}
 
 	.main-header p1{
-		font-size: 140px;
+		font-size: 100px;
 	}
 
 	.main-header p2{
-		font-size: 60px;
+		font-size: 45px;
 	}
+}
+
+
+.base{
+  height:400px;
+  width:300px;
+  background:#d33;
+  position:relative;
+  margin-top:100px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.circle{
+  position:absolute;
+  height:100px;
+  width:100px;
+  border-radius:50%;
+  left:50%;
+  margin-left:-55px;
+  top: -40px;
+  background: #d33;
+}
+
+.base1 {
+	background:#5680e9;
+}
+
+.circle1 {
+	background:#5680e9;
+}
+
+.base2 {
+	background:#f15a42;
+}
+
+.circle2 {
+	background:#f15a42;
+}
+
+.base3 {
+	background:#fac92C;
+}
+
+.circle3 {
+	background:#fac92C;
 }
