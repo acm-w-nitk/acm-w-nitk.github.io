@@ -30,7 +30,7 @@ const oldeventsData = [
     {
       name: "Event 33",
       desc: "ent Pages with Stand Out Copy to Inspire You. ... To get you started, we’ve compiled 10 examples of Eventbrite events with excellent copy to provide the inspiration you need to get scribbling! (p.s. Don’t forget to also download our Ultimate Guide to Copywriting for Events for a",
-      photo: "../images/event3.jpg"
+      photo: "../images/event2.jpg"
     }
   ];
   
