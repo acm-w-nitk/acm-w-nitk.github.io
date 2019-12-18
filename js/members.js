@@ -1,7 +1,7 @@
 const members = [
     { 
       id:1,
-      name: "Apoorva",
+      name: "M K Apoorva",
       desc: "Chair",
       photo: "images/apoorva.jpg",
       facebook:"https://www.facebook.com/profile.php?id=100018343548473",
@@ -58,8 +58,8 @@ const members = [
     <div class="card" align="center">
     <img src="${events.photo}" class="rounded-circle" alt="Vice Chair" style="margin:auto;width:60%">
     <div class="card-body">
-      <h3 class="card-title">${events.name}</h3>
-      <h5 class="card-text">${events.desc}</h5>
+      <h3 class="name">${events.name}</h3>
+      <h5 class="role">${events.desc}</h5>
       <a href=${events.facebook} class="fa fa-facebook"></a>
       <a href=${events.linkedin} class="fa fa-linkedin"></a>
     </div>

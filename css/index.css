@@ -127,8 +127,6 @@ button.hamburger{
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
 	text-align: center;
-	background-image: linear-gradient(#ab8fde, #8860D0,#8860D0);
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 hr {
@@ -159,20 +157,22 @@ hr {
 	font-family: 'Raleway', sans-serif;
 }
 
-.card-body name{
+.officers .name{
+	color: #1b4793;
 	text-align: center;
-	font-size: 30px;
+	font-size: 20x;
 }
 
-.card-body role{
+.officers .role{
+	color: #1b4793;
 	text-align: center;
 	font-size: 20px;
 }
 
 .fa {
-	padding: 15px;
-	width: 50px;
-	height: 50px;
+	padding: 12px;
+	width: 40px;
+	height: 40px;
 	border-radius: 50%;
 }
 
@@ -185,13 +185,19 @@ a.fa{
 }
 
 .officers .fa-facebook {
-	background-image: linear-gradient(#5AB9EA,#5AB9EA);
-	color: white;
+	padding: 15px;
+	width: 50px;
+	height: 50px;
+	background: white;
+	color: #1b4793;
 }
 
 .officers .fa-linkedin {
-	background-image: linear-gradient(#5AB9EA,#5AB9EA);
-	color: white;
+	padding: 15px;
+	width: 50px;
+	height: 50px;
+	background: white;
+	color:#1b4793;
 }
 
 
@@ -231,23 +237,20 @@ a.fa{
 }
 
 .fa-facebook {
-	border-color: #1b4793;
-	border: 1px solid;
-	color: #1b4793;
+	background: #1b4793;
+	color: white;
 	margin: 10px;
 }
 
 .fa-linkedin {
-	border-color: #1b4793;
-	border: 1px solid;
-	color: #1b4793;
+	background: #1b4793;
+	color:white;
 	margin: 10px;
 }
 
 .fa-instagram {
-	border-color: #1b4793;
-	border: 1px solid;
-	color: #1b4793;
+	background: #1b4793;
+	color: white;
 	margin: 10px;
 }
 
