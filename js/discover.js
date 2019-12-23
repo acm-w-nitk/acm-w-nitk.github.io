@@ -20,3 +20,30 @@ $.getJSON(rawbase + jsonloc, function( data ) {
    $('#tbl').append(list)
   //do what you want with data
 });
+
+
+$('#search').keyup(function(){
+  search_table($(this).val())
+});
+
+function search_table(value){
+  $('#tbl tr').each(function(){
+    var found='false';
+    $(this).each(function(){
+      console.log($(this).text())
+      if($(this).text().toLowerCase().indexOf(value.toLowerCase())>=0)
+      { 
+        console.log("yes")
+        found='true';
+      }
+    })
+    if(found == 'true')
+    {
+      $(this).show()
+    }
+    else
+    {
+      $(this).hide()
+    }
+  })
+}
