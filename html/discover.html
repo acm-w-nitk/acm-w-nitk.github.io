@@ -77,7 +77,7 @@
 						<div class="container h-100">
 						  <div class="d-flex justify-content-center h-100">
 							<div class="searchbar">
-							  <input style="font-size: 20px;"class="search_input" type="text" name="" placeholder="Search">
+							  <input style="font-size: 20px;" id = "search_input" class="search_input" type="text" name="search_input" placeholder="Search">
 							  <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
 							</div>
 						  </div>
@@ -86,7 +86,7 @@
 		</div>
 	</div>
 	<br>  
-	<div align="center">
+	<!-- <div align="center">
 		<input type="text" name="search" id="search" class="form-control" />
 	</div>
 	<br>
@@ -99,7 +99,17 @@
 				club
 			</th>
 		</tr>
-	</table>
+	</table> -->
+	<table align ="center" class="tbl" id="tbl" style="width:80%">
+		<tbody style="cursor:pointer"></tbody>
+		<thead class="tblheader">
+		  <tr>
+			<th>Name</th>
+			<th>Organiser</th>
+			<th>Event Type</th>
+		  </tr>
+		</thead>
+	  </table>
 	<script src="../js/discover.js"></script>
 <link rel="stylesheet" href="../css/discover.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">

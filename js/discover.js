@@ -6,31 +6,76 @@
 
 
 var rawbase = 'https://raw.githubusercontent.com/';
-var jsonloc = 'yashkumar0707/learngit/master/5.json';
+var jsonloc = 'yashkumar0707/learngit/master/acmwjson.json';
+function onRowClick(tableId, callback) {
+  var table = document.getElementById(tableId),
+      rows = table.getElementsByTagName("tr"),
+      i;
+  for (i = 0; i < rows.length; i++) {
+      table.rows[i].onclick = function (row) {
+          return function () {
+              callback(row);
+          };
+      }(table.rows[i]);
+  }
+};
+
+
 
 $.getJSON(rawbase + jsonloc, function( data ) {
-   console.log(data.length);
-   var list ='';
-   $.each(data,function(key,value){
-       list += '<tr>';
-       list += '<td>' +value.name+'</td>'
-       list += '<td>'+value.body+'</td>'
-       list += '</tr>'
-   });
-   $('#tbl').append(list)
-  //do what you want with data
+  console.log(data.length);
+  var list ='';
+  $.each(data,function(key,value){
+      list += '<tbody>'
+      list += '<tr class ="breakrow">'
+      list += '<td>' +value.name+'</td>'
+      list += '<td>'+value.organiser +'</td>'
+      list += '<td>'+value.typeOfEvent +'</td>'
+      list += '<div class="drop">'
+      list += '<tr class="datarow" style="display:none;">'
+      list += '<td> Awards Prizes Benefits </td>'
+      list += '<td >' + value.awardsPrizesBenefits +'</td>'
+      list += '</tr>'
+      list += '<tr class="datarow" style="display:none;">'
+      list += '<td> Event Domain Tags </td>'
+      list += '<td >' + value.eventDomaintags +'</td>'
+      list += '</tr>'
+      list += '<tr class="datarow" style="display:none;">'
+      list += '<td> Website </td>'
+      list += '<td >' + value.website +'</td>'
+      list += '</tr>'
+      list += '<tr class="datarow" style="display:none;">'
+      list += '<td> Eligibility </td>'
+      list += '<td >' + value.eligibility +'</td>'
+      list += '</tr>'
+      list += '<tr class="datarow" style="display:none;">'
+      list += '<td> Description </td>'
+      list += '<td >' + value.description +'</td>'
+      list += '</tr>'
+      list += '</div>'
+      list += '</tr>'
+  });
+  $('#tbl').append(list)
+
+ 
+ //do what you want with data
 });
 
+   onRowClick("tbl", function (row){
+    var value = row.getElementsByTagName("td")[0].innerHTML;
+    console.log("value>>", value);
+  });
 
-$('#search').keyup(function(){
+
+$('#search_input').keyup(function(){
   search_table($(this).val())
 });
 
 function search_table(value){
-  $('#tbl tr').each(function(){
+  $('#tbl tr.breakrow').each(function(){
     var found='false';
     $(this).each(function(){
-      console.log($(this).text())
+      
       if($(this).text().toLowerCase().indexOf(value.toLowerCase())>=0)
       { 
         console.log("yes")
@@ -47,3 +92,6 @@ function search_table(value){
     }
   })
 }
+$('#tbl').on('click', 'tr.breakrow',function(){
+  $(this).nextUntil('tr.breakrow').slideToggle(200);
+});
