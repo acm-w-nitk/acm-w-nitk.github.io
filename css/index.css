@@ -431,8 +431,10 @@ html {
 	  .main-header p2{
 		  font-size: 45px;
 	  }
+	  .about{
+	  padding: 40px;
   }
-  
+}
   
   .base{
 	height:400px;
