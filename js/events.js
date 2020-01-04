@@ -78,7 +78,7 @@ function EventTemplate(events) {
   `;
   
   }
-
+document.getElementById("newevents").click();
 function oldevents(){
     i=0;
     console.log("hi");
