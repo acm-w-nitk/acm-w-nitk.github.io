@@ -66,7 +66,6 @@
     .header{
       background: #f15a42;
       text-align: center;
-      font-size: 25px;
       text-decoration: none;
       color: white;
       font-family: 'Open Sans', sans-serif;
@@ -123,7 +122,11 @@
         text-decoration:none;
     }
     
-    
+    th, td {
+      padding: 8px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
     .tbl{ 
     
       margin-left: auto;
@@ -133,7 +136,6 @@
       overflow: auto;
       line-height: 3;
       background-color: #f0f3f4;
-      font-size: 16px;
       font-family: "Open Sans", sans-serif;
       text-align: center;
     } 
@@ -146,11 +148,84 @@
     
     }
     .datarow{
-      color: blueviolet;
+      background-color: rgb(238, 234, 234);
     }
     [data-toggle="toggle"] {
       display: none;
     }
     
+    @media (min-width: 0px) {
+  
+      .tbl{
+        font-size: 11px;
+      }
+      .searchbar:hover > .search_input{
+       
+        width: 180px;
+    }
+    .heading{
+      font-size: 40px;
+    }
+    .sub{
+      font-size: 22px;
+    }
+    }
+    /* sm */
+    @media (min-width: 480px) {
+      .tbl{
+        font-size: 13px;
+      }
+      .searchbar:hover > .search_input{
+       
+        width: 250px;
+    }
+    .heading{
+      font-size: 50px;
+    }
+    .sub{
+      font-size: 28px;
+    }
+    }
+    /* md */
+    @media (min-width: 768px) {
+      .tbl{
+        font-size: 15px;
+      }
+      .searchbar:hover > .search_input{
+       
+        width: 300px;
+    }
+    .heading{
+      font-size: 60px;
+    }
+    .sub{
+      font-size: 35px;
+    }
+    }
+    
+    /* lg */
+    @media (min-width: 992px) {
+      .tbl{
+        font-size: 14px;
+      }
+
+    .searchbar:hover > .search_input{
+       
+      width: 400px;
+  }
+  .heading{
+    font-size: 70px;
+  }
+  .sub{
+    font-size: 45px;
+  }
+  }
+    
+    /* xl */
+    @media (min-width: 1200px) {
+      .tbl{
+        font-size: 16px;
+      }
+    }
     
     

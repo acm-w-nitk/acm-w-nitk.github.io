@@ -6,7 +6,7 @@
 
 
 var rawbase = 'https://raw.githubusercontent.com/';
-var jsonloc = 'yashkumar0707/learngit/master/acmwjson.json';
+var jsonloc = 'yashkumar0707/learngit/master/acm2.json';
 function onRowClick(tableId, callback) {
   var table = document.getElementById(tableId),
       rows = table.getElementsByTagName("tr"),
@@ -27,7 +27,7 @@ $.getJSON(rawbase + jsonloc, function( data ) {
   var list ='';
   $.each(data,function(key,value){
       list += '<tbody>'
-      list += '<tr class ="breakrow">'
+      list += '<tr class ="breakrow" id="breakrow">'
       list += '<td>' +value.name+'</td>'
       list += '<td>'+value.organiser +'</td>'
       list += '<td>'+value.typeOfEvent +'</td>'
@@ -35,22 +35,27 @@ $.getJSON(rawbase + jsonloc, function( data ) {
       list += '<tr class="datarow" style="display:none;">'
       list += '<td> Awards Prizes Benefits </td>'
       list += '<td >' + value.awardsPrizesBenefits +'</td>'
+      list += '<td></td>'
       list += '</tr>'
       list += '<tr class="datarow" style="display:none;">'
       list += '<td> Event Domain Tags </td>'
       list += '<td >' + value.eventDomaintags +'</td>'
+      list += '<td></td>'
       list += '</tr>'
       list += '<tr class="datarow" style="display:none;">'
       list += '<td> Website </td>'
-      list += '<td >' + value.website +'</td>'
+      list += '<td > <a href="'+value.website+'">' + value.website +'</td>'
+      list += '<td></td>'
       list += '</tr>'
       list += '<tr class="datarow" style="display:none;">'
       list += '<td> Eligibility </td>'
       list += '<td >' + value.eligibility +'</td>'
+      list += '<td></td>'
       list += '</tr>'
       list += '<tr class="datarow" style="display:none;">'
       list += '<td> Description </td>'
       list += '<td >' + value.description +'</td>'
+      list += '<td></td>'
       list += '</tr>'
       list += '</div>'
       list += '</tr>'
@@ -94,4 +99,11 @@ function search_table(value){
 }
 $('#tbl').on('click', 'tr.breakrow',function(){
   $(this).nextUntil('tr.breakrow').slideToggle(200);
+  console.log(this)
+  if(this.style.background == "" || this.style.background =="white") {
+    $(this).css('background', 'lightgrey');
+}
+else {
+    $(this).css('background', '#f0f3f4');
+}
 });
