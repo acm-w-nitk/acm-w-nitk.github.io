@@ -69,10 +69,12 @@ function EventTemplate(events) {
   return `
   <div class="card col-md-4 col-sm-12> 
   <div class="card">
+  <div style="text-align:center">
   <img src="${events.photo}" alt="Card image cap" class="img-fluid">
   <div class="card-body">
     <h5 class="card-title">${events.name}</h5>
     <p class="card-text">${events.desc}</p>
+  </div>
   </div>
   </div>
   `;

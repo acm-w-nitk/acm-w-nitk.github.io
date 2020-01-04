@@ -348,8 +348,10 @@ html {
           font-size: 35px;
       }
       .img-fluid{
-        height: 50vw;
+        height:60vw;
+        width:80%;
     }
+    
   }
   
   /* sm */
@@ -372,7 +374,8 @@ html {
           font-size: 40px;
       }
       .img-fluid{
-        height: 12vw;
+        height:42vw;
+        width:60%;
     }
   }
   
@@ -395,6 +398,10 @@ html {
       .main-header p2{
           font-size: 55px;
       }
+      .img-fluid{
+        height:20vw;
+        width:100%;
+    }
   
   }
   
@@ -416,28 +423,57 @@ html {
       .main-header p2{
           font-size: 60px;
       }
-  
+      .img-fluid{
+        height:24vw;
+        width:100%;
+    }
   }
   
   /* xl */
   @media (min-width: 1200px) {
   
-      .paragraph heading{
-          font-size: 35px;
-      }
-  
-      .paragraph parabody{
-          font-size: 25px;
-      }
-  
-      .main-header p1{
-          font-size: 100px;
-      }
-  
-      .main-header p2{
-          font-size: 45px;
-      }
+    .paragraph heading{
+        font-size: 35px;
+    }
+
+    .paragraph parabody{
+        font-size: 25px;
+    }
+
+    .main-header p1{
+        font-size: 100px;
+    }
+
+    .main-header p2{
+        font-size: 45px;
+    }
+    .img-fluid{
+      height:18vw;
+      width:80%;
   }
+}
+@media (min-width: 1250px) {
+  
+    .paragraph heading{
+        font-size: 35px;
+    }
+
+    .paragraph parabody{
+        font-size: 25px;
+    }
+
+    .main-header p1{
+        font-size: 100px;
+    }
+
+    .main-header p2{
+        font-size: 45px;
+    }
+    .img-fluid{
+      height:12vw;
+      width:80%;
+  }
+}
   
   
   .base{
@@ -512,5 +548,6 @@ html {
 
   .card:hover{
 		background: lightcyan;
-	  }
+      }
+  
   
