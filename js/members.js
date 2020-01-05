@@ -56,7 +56,9 @@ const members = [
     return `
     <div class="card col-md-4 col-sm-12> 
     <div class="card" align="center">
-    <img src="${events.photo}" class="rounded-circle" alt="Vice Chair" style="margin:auto;width:60%">
+    <div class="image-box">
+    <img src="${events.photo}" class="rounded-circle" alt="Vice Chair">
+    </div>
     <div class="card-body">
       <h3 class="name">${events.name}</h3>
       <h5 class="role">${events.desc}</h5>
