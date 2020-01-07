@@ -35,7 +35,7 @@ const members = [
       id:5,
       name: "Saahitya",
       desc: "Social Media Coordinator",
-      photo: "images/dummy.jpg",
+      photo: "images/saahitya.jpg",
       linkedin:"https://www.linkedin.com/company/acm-w-nitk/",
       facebook:"https://www.facebook.com/acmwnitk/"
   
