@@ -86,11 +86,12 @@ html {
 	  margin-top: 5px;
   }
   .main-header{
+		
 	  font-family: 'Raleway', sans-serif;
 	  text-align: center;
 	  background-color: #0040c1;
 	  color: #ffffff;
-	  z-index: 10;
+	  z-index: 20;
   }
   
   .about{
@@ -549,5 +550,4 @@ html {
    .rounded-circle:hover {
 	transform: scale(1.1);
 } 
-
 
