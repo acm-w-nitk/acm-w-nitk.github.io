@@ -116,9 +116,9 @@
   position: absolute;
   top: 28vh;
   left: 45vw;
-  width: 10px;
-  height: 10px;
-  border: solid 1px white;
+  width: 4px;
+  height: 4px;
+  border: solid 2px white;
   -webkit-transform-origin: top left;
           transform-origin: top left;
   -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
