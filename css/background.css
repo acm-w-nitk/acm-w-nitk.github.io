@@ -116,9 +116,9 @@
   position: absolute;
   top: 28vh;
   left: 45vw;
-  width: 4px;
-  height: 4px;
-  border: solid 2px white;
+  width: 3px;
+  height: 3px;
+  border: solid 1px white;
   -webkit-transform-origin: top left;
           transform-origin: top left;
   -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
@@ -127,7 +127,7 @@
           animation: cube 12s ease-in forwards infinite;
 }
 .cube:nth-child(2n) {
-  border-color: black;
+  border-color: #4583ff;
 }
 .cube:nth-child(2) {
   -webkit-animation-delay: 2s;
