@@ -127,7 +127,7 @@
           animation: cube 12s ease-in forwards infinite;
 }
 .cube:nth-child(2n) {
-  border-color: #4583ff;
+  border-color:rgb(231, 147, 50);
 }
 .cube:nth-child(2) {
   -webkit-animation-delay: 2s;
@@ -162,7 +162,7 @@
   .cube:nth-child(9) {
     -webkit-animation-delay: 9s;
             animation-delay: 9s;
-    left: 50vw;
+    left: 60vw;
     top: 30vh;
   }
   .cube:nth-child(10) {
