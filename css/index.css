@@ -89,7 +89,8 @@ html {
 		
 	  font-family: 'Raleway', sans-serif;
 	  text-align: center;
-	  background-color: #0040c1;
+	  /* background-color: #0040c1; */
+		background-color: #1b4793; 
 	  color: #ffffff;
 	  z-index: 20;
   }
@@ -550,4 +551,6 @@ html {
    .rounded-circle:hover {
 	transform: scale(1.1);
 } 
-
+.dropdown:hover .dropdown-menu {
+	display: block;
+  }
