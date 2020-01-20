@@ -349,6 +349,9 @@ html {
 	  .main-header p2{
 		  font-size: 35px;
 	  }
+	  .paragraph{
+		padding-top: 20px;
+	}
   }
   
   /* sm */
@@ -414,8 +417,11 @@ html {
 		  font-size: 60px;
 	  }
 	  .yellow{
-		  padding-top: 210px;
+		  padding-top: 210px;;
 	  }
+	  .paragraph{
+		padding-top: 0px;
+	}
   }
   
   /* xl */
