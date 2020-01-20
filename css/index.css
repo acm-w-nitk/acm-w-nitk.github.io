@@ -413,7 +413,9 @@ html {
 	  .main-header p2{
 		  font-size: 60px;
 	  }
-  
+	  .yellow{
+		  padding-top: 210px;
+	  }
   }
   
   /* xl */
