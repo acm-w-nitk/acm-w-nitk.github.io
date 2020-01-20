@@ -111,8 +111,8 @@ html {
   }
   
   .about parabody {
-	  font-family: 'Raleway', sans-serif;
-	  font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
 	  color: #1b4793;
 	  text-align: justify;
   }
@@ -498,7 +498,9 @@ html {
   .container1 {
     width: 100%;
     max-width: 1200px;
-    margin: 50px auto;
+	margin: 50px auto;
+	font-family: 'Raleway', sans-serif;
+	  font-size: 20px;
   }
   
   button.accordion {
@@ -561,4 +563,8 @@ html {
 } 
 .dropdown:hover .dropdown-menu {
 	display: block;
+  }
+
+  .app{
+	font-family: 'Raleway', sans-serif;
   }
