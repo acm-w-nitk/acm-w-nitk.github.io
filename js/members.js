@@ -33,7 +33,7 @@ const members = [
     },
     {
       id:5,
-      name: "Saahitya",
+      name: "Saahithya Seenivasan",
       desc: "Social Media Coordinator",
       photo: "images/saahitya.jpg",
       linkedin:"https://www.linkedin.com/company/acm-w-nitk/",
