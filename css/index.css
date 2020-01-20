@@ -500,7 +500,8 @@ html {
     max-width: 1200px;
 	margin: 50px auto;
 	font-family: 'Raleway', sans-serif;
-	  font-size: 20px;
+	font-size: 20px;
+	color: #1b4793;
   }
   
   button.accordion {
@@ -512,8 +513,9 @@ html {
     padding: 30px 35px;
 	font-size: 18px;
 	font-weight: bold;
-  	font-family: Lato, sans-serif;
-    color: #444;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: #1b4793;
     cursor: pointer;
     transition: background-color 0.2s linear;
   }
@@ -567,4 +569,5 @@ html {
 
   .app{
 	font-family: 'Raleway', sans-serif;
+	color: #1b4793;
   }
