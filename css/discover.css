@@ -229,4 +229,92 @@
       }
     }
     
+
+
+
+    .nav-options ul li a{
+      padding-top: 21px;
+      padding-bottom: 17px;
+      width: auto;
+      height: 110%;
+      font-size: 14px;
+      text-decoration: none;
+      color: #ffffff;
+      font-family: 'Raleway', sans-serif;
+    }
+    
+    .chapter_name{
+      text-align: center;
+      font-size: 30px;
+      text-decoration: none;
+      color: #ffffff;
+    }
+    
+    .nav-options ul > li a:hover {
+      background-color: #fac92C;
+      color: #1b4793; 
+    }
+    
+    button.hamburger{
+    display: none;
+    }
+    
+    @media only screen and (max-width: 576px){
+      .nav-options li{
+        display: none;
+      }
+    
+    button.hamburger{
+      align-self: flex-end;
+      display: block;
+      padding: 2vw;
+      outline: none!important;
+      font-size: 3vh;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      color: #ffffff;
+      margin-top: 5px;
+      }
+    
+    .nav-options ul{
+      flex-direction: column;
+    }
+    
+    .nav-options li{
+      margin: 0;
+    }
+    
+      .nav-options a{
+      display: block;
+    }
+    }
+    
+    @media only screen and (max-width: 409px){
+      button.hamburger{
+      font-size: 3vh;
+      margin-right: -40px;
+      margin-top: -70px;
+      }
+    }
+    
+    .logo{
+      margin-top: 5px;
+    }
+
+    .img-logo {
+      height:60px;
+      width:60px;
+      padding: 5px;
+    }
+
+    .header1{
+      background-color: #1b4793;
+      position: fixed;
+      z-index: 10;
+    }
+    
+    .header1.active{
+      box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+    }
     
