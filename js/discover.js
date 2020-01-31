@@ -1,10 +1,3 @@
-// $.getJSON('https://raw.githubusercontent.com/yashkumar0707/learngit/master/testjson.json', function(data) {
-//     console.log("hi")
-//     var a=data.name
-//     console.log(a)
-// })
-
-
 var rawbase = 'https://raw.githubusercontent.com/';
 var jsonloc = 'acm-w-nitk/acm-w-nitk.github.io/events/opp.json';
 function onRowClick(tableId, callback) {
