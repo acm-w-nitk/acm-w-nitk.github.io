@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // $.getJSON('https://raw.githubusercontent.com/yashkumar0707/learngit/master/testjson.json', function(data) {
 //     console.log("hi")
 //     var a=data.name
@@ -61,6 +62,64 @@
 //       list += '</tr>'
 //   });
 //   $('#tbl').append(list)
+=======
+var rawbase = 'https://raw.githubusercontent.com/';
+var jsonloc = 'acm-w-nitk/acm-w-nitk.github.io/events/opp.json';
+function onRowClick(tableId, callback) {
+  var table = document.getElementById(tableId),
+      rows = table.getElementsByTagName("tr"),
+      i;
+  for (i = 0; i < rows.length; i++) {
+      table.rows[i].onclick = function (row) {
+          return function () {
+              callback(row);
+          };
+      }(table.rows[i]);
+  }
+};
+
+
+
+$.getJSON(rawbase + jsonloc, function( data ) {
+  console.log(data.length);
+  var list ='';
+  $.each(data,function(key,value){
+      list += '<tbody>'
+      list += '<tr class ="breakrow" id="breakrow">'
+      list += '<td>' +value.name+'</td>'
+      list += '<td>'+value.organiser +'</td>'
+      list += '<td>'+value.typeOfEvent +'</td>'
+      list += '<div class="drop">'
+      list += '<tr class="datarow" style="display:none;">'
+      list += '<td> Awards Prizes Benefits </td>'
+      list += '<td >' + value.awardsPrizesBenefits +'</td>'
+      list += '<td></td>'
+      list += '</tr>'
+      list += '<tr class="datarow" style="display:none;">'
+      list += '<td> Event Domain Tags </td>'
+      list += '<td >' + value.eventDomaintags +'</td>'
+      list += '<td></td>'
+      list += '</tr>'
+      list += '<tr class="datarow" style="display:none;">'
+      list += '<td> Website </td>'
+      list += '<td > <a href="'+value.website+'">' + value.website +'</td>'
+      list += '<td></td>'
+      list += '</tr>'
+      list += '<tr class="datarow" style="display:none;">'
+      list += '<td> Eligibility </td>'
+      list += '<td >' + value.eligibility +'</td>'
+      list += '<td></td>'
+      list += '</tr>'
+      list += '<tr class="datarow" style="display:none;">'
+      list += '<td> Description </td>'
+      list += '<td >' + value.description +'</td>'
+      list += '<td></td>'
+      list += '</tr>'
+      list += '</div>'
+      list += '</tr>'
+  });
+  $('#tbl').append(list)
+>>>>>>> 530b7807968f0ad097f04db0ad7ce81c1bfed5cd
 
  
 //  //do what you want with data

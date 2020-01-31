@@ -11,57 +11,15 @@ const oldeventsData = [
     desc: "ACM-W presents Women Emerging in Finance 2019, an informal networking opportunity for girls across all years, branches and programs in NITK to interact with women leaders of the firm with the goal of identifying talented women, giving deep insight into the world of finance and creating awareness about the plethora of opportunities at the company.",
     photo: "../images/gs.jpg"
   },
-  {
-    id:3,
-    name: "recHERsion",
-    desc: "Hello there, women of technology!There is no gate, no lock, no bolt. Here's an opportunity for you to follow in the footsteps of greats such as Margaret Hamilton and Grace Mary Hopper.ACM-W, NITK in collaboration with ACM-W, VIT sponsored by Coding Blocks present to you an opportunity to code, compete and show us what you got at an all girls coding contest, RecHERsion.",
-    photo: "../images/rechersion.jpg"
-  }
 ];
 
 const neweventsData = [
   {
     id:1,
-    name: "Event 11",
-    desc: "An event description is copy that aims to tell your potential attendees what will be happening at the event",
-    photo: "../images/event1.jpg"
-  },
-  {
-    id:2,
-    name: "Event 22",
-    desc: "Good event descriptions can drive attendance to events and also lead to more media coverage",
-    photo: "../images/event2.jpg"
-  },
-  {
-    id:3,
-    name: "Event 33",
-    desc: "ent Pages with Stand Out Copy to Inspire You. ... To get you started, we’ve compiled 10 examples of Eventbrite events with excellent copy to provide the inspiration you need to get scribbling! (p.s. Don’t forget to also download our Ultimate Guide to Copywriting for Events for a",
-    photo: "../images/event3.jpg"
-  },
-  { 
-    id:4,
-    name: "Event 33",
-    desc: "ent Pages with Stand Out Copy to Inspire You. ... To get you started, we’ve compiled 10 examples of Eventbrite events with excellent copy to provide the inspiration you need to get scribbling! (p.s. Don’t forget to also download our Ultimate Guide to Copywriting for Events for a",
-    photo: "../images/event3.jpg"
-  },
-{
-  id:1,
-  name: "Event 1",
-  desc: "An event description is copy that aims to tell your potential attendees what will be happening at the event",
-  photo: "../images/event1.jpg"
-},
-{
-  id:2,
-  name: "Event 2",
-  desc: "Good event descriptions can drive attendance to events and also lead to more media coverage",
-  photo: "../images/event2.jpg"
-},
-{
-  id:3,
-  name: "Event 3",
-  desc: "ent Pages with Stand Out Copy to Inspire You. ... To get you started, we’ve compiled 10 examples of Eventbrite events with excellent copy to provide the inspiration you need to get scribbling! (p.s. Don’t forget to also download our Ultimate Guide to Copywriting for Events for a",
-  photo: "../images/event3.jpg"
-}
+    name: "RecHERsion 2020",
+    desc: "Hello there, women of technology!There is no gate, no lock, no bolt. Here's an opportunity for you to follow in the footsteps of greats such as Margaret Hamilton and Grace Mary Hopper.ACM-W, NITK in collaboration with ACM-W, VIT sponsored by Coding Blocks present to you an opportunity to code, compete and show us what you got at an all girls coding contest, RecHERsion.",
+    photo: "../images/rechersion.jpg"
+  }
 ];
 
 
@@ -89,6 +47,8 @@ document.getElementById("app").innerHTML = `<br>
 <div class = "row">
   ${oldeventsData.map(EventTemplate).join("")} </div>
 `;
+document.getElementById("newevents").style.borderBottom= "5px solid #ffffff";
+  document.getElementById("oldevents").style.borderBottom= "5px solid #f15a42";
 }
 
 function newevents(){
@@ -100,4 +60,6 @@ document.getElementById("app").innerHTML = ` <br>
 
   ${neweventsData.map(EventTemplate).join("")} </div></div></div></div></div>
 `;
+document.getElementById("oldevents").style.borderBottom= "5px solid #ffffff";
+document.getElementById("newevents").style.borderBottom= "5px solid #f15a42";
 }
