@@ -1,21 +1,21 @@
 const oldeventsData = [
-  { 
-    id:1,
-    name: "Event 1",
-    desc: "An event description is copy that aims to tell your potential attendees what will be happening at the event",
-    photo: "../images/event1.jpg"
-  },
   {
+    id:1,
+    name: "Open Source Kick Start",
+    desc: " With Hactoberfest 2020 going on in full swing, we at ACM-W invite all open source enthusiasts to contribute to our organisation and watch your work being deployed! 🚀Come and get a feel of how most GSoC organisations work and familiarise yourself with Open Source projects.",
+    photo: "../images/open.jpg"
+  },
+  { 
     id:2,
-    name: "Event 2",
-    desc: "Good event descriptions can drive attendance to events and also lead to more media coverage",
-    photo: "../images/event2.jpg"
+    name: "Women Emerging in Finance 2019",
+    desc: "ACM-W presents Women Emerging in Finance 2019, an informal networking opportunity for girls across all years, branches and programs in NITK to interact with women leaders of the firm with the goal of identifying talented women, giving deep insight into the world of finance and creating awareness about the plethora of opportunities at the company.",
+    photo: "../images/gs.jpg"
   },
   {
     id:3,
-    name: "Event 3",
-    desc: "ent Pages with Stand Out Copy to Inspire You. ... To get you started, we’ve compiled 10 examples of Eventbrite events with excellent copy to provide the inspiration you need to get scribbling! (p.s. Don’t forget to also download our Ultimate Guide to Copywriting for Events for a",
-    photo: "../images/event3.jpg"
+    name: "recHERsion",
+    desc: "Hello there, women of technology!There is no gate, no lock, no bolt. Here's an opportunity for you to follow in the footsteps of greats such as Margaret Hamilton and Grace Mary Hopper.ACM-W, NITK in collaboration with ACM-W, VIT sponsored by Coding Blocks present to you an opportunity to code, compete and show us what you got at an all girls coding contest, RecHERsion.",
+    photo: "../images/rechersion.jpg"
   }
 ];
 
@@ -72,7 +72,7 @@ function EventTemplate(events) {
   <div style="text-align:center">
   <img src="${events.photo}" alt="Card image cap" class="img-fluid">
   <div class="card-body">
-    <h5 class="card-title">${events.name}</h5>
+    <h5 class="card-title"><strong>${events.name}</strong></h5>
     <p class="card-text">${events.desc}</p>
   </div>
   </div>
