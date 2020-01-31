@@ -11,16 +11,15 @@ const oldeventsData = [
     desc: "ACM-W presents Women Emerging in Finance 2019, an informal networking opportunity for girls across all years, branches and programs in NITK to interact with women leaders of the firm with the goal of identifying talented women, giving deep insight into the world of finance and creating awareness about the plethora of opportunities at the company.",
     photo: "../images/gs.jpg"
   },
+];
+
+const neweventsData = [
   {
-    id:3,
+    id:1,
     name: "RecHERsion 2020",
     desc: "Hello there, women of technology!There is no gate, no lock, no bolt. Here's an opportunity for you to follow in the footsteps of greats such as Margaret Hamilton and Grace Mary Hopper.ACM-W, NITK in collaboration with ACM-W, VIT sponsored by Coding Blocks present to you an opportunity to code, compete and show us what you got at an all girls coding contest, RecHERsion.",
     photo: "../images/rechersion.jpg"
   }
-];
-
-const neweventsData = [
-  
 ];
 
 
@@ -48,6 +47,8 @@ document.getElementById("app").innerHTML = `<br>
 <div class = "row">
   ${oldeventsData.map(EventTemplate).join("")} </div>
 `;
+document.getElementById("newevents").style.borderBottom= "5px solid #ffffff";
+  document.getElementById("oldevents").style.borderBottom= "5px solid #f15a42";
 }
 
 function newevents(){
@@ -59,4 +60,6 @@ document.getElementById("app").innerHTML = ` <br>
 
   ${neweventsData.map(EventTemplate).join("")} </div></div></div></div></div>
 `;
+document.getElementById("oldevents").style.borderBottom= "5px solid #ffffff";
+document.getElementById("newevents").style.borderBottom= "5px solid #f15a42";
 }

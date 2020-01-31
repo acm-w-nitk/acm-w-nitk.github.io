@@ -9,6 +9,7 @@ html {
   .header{
       background-color: #f15a42;
       position: fixed;
+      box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.6);
       z-index: 10;
   }
   
@@ -547,17 +548,21 @@ html {
 
 
   .button {
-	background-color: #008CBA;
+    background: white;
 	border: none;
-	color: white;
+	color: #1b4793;
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
+    font-size: 30px;
+    font-family: 'Alatsi', sans-serif;
 	cursor: pointer;
 	width:48%;
+  }
+
+  .button:hover{
+    border-bottom: 5px solid #f15a42;
   }
 
 
