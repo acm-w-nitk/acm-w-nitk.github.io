@@ -200,7 +200,16 @@ $(document).ready(function(){
                {     "data"     :     "typeOfEvent"},  
                {     "data"     :     "awardsPrizesBenefits"     },
                {     "data"     :     "eventDomainTags"     },
-               {     "data"     :     "website"     },
+               {     "data"     :     "website",  
+               "render": function(data, type, row, meta){
+                if(type === 'display'){
+                    data = '<a href="' + data + '">' + data + '</a>';
+                }
+    
+                return data;
+              
+              }
+            },
                {     "data"     :     "applicationDate"     },
                {     "data"     :     "eligibility"     },
                {     "data"     :     "description"     }
