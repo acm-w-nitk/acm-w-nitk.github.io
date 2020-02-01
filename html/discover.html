@@ -47,7 +47,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>  
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />  
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
-		 
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
 		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/r/bs-3.3.5/jq-2.1.4,dt-1.10.8/datatables.min.css"/>  
 		<script type="text/javascript" src="https://cdn.datatables.net/r/bs-3.3.5/jqc-1.11.3,dt-1.10.8/datatables.min.js"></script> 
 	</head>
@@ -132,7 +132,7 @@
 	  </table>
   <script src="../js/discover.js"></script>
 </div> -->
-<div class="table-responsive">  
+<!-- <div class="table-responsive">  
 	<button onclick="check3()">Awards,Prizes,Benifits</button>
 	<button onclick="check4()">EventDomainTags</button>
 	<button onclick="check5()">Website</button>
@@ -156,7 +156,31 @@
 	</table>  
   
 <script src="../js/discover.js"></script>
-</div>
+</div> -->
+
+
+<table id="example" class="display" style="width:100%;text-align:center;">
+	<thead>
+		<tr>
+			<th></th>
+    		<th>Name</th>  
+			<th>Organiser</th>  
+			<th>Type Of Event</th>  
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<th></th>
+			<th>Name</th>  
+			<th>Organiser</th>  
+			<th>Type Of Event</th>  
+		</tr>
+	</tfoot>
+</table>
+<script src="../js/discover.js"></script>  
+
+
+
 <style>
 	.dataTables_wrapper .dataTables_filter {
 		float: right;

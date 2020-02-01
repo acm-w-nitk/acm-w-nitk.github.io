@@ -260,3 +260,15 @@
       box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.6);
     }
     
+
+
+
+    td.details-control {
+      background: url('../images/plus.jpg') no-repeat center center ;
+      background-size: 20px 20px;
+      cursor: pointer;
+  }
+  tr.shown td.details-control {
+      background: url('../images/minus.png') no-repeat center center;
+      background-size: 20px 20px;
+  }
