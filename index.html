@@ -14,8 +14,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<!-- Local Imports for CSS -->
+ 	<!-- Local Imports for CSS -->
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/mentorship.css">
 
@@ -56,8 +57,24 @@
 
   	gtag('config', 'UA-156009380-1');
 	</script>
-
+	<script type="text/javascript">
+		(function () {
+			var options = {
+				email: "acmw.nitk@gmail.com", // Email
+				call_to_action: "Message us", // Call to action
+				position: "right", // Position may be 'right' or 'left'
+			};
+			var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+			var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+			s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+			var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+		})();
+	</script>
 </head>
+
+<!-- WhatsHelp.io widget -->
+
+<!-- /WhatsHelp.io widget -->
 
 <body>
 	<div class="header container-fluid" id="header">
@@ -210,31 +227,6 @@
 			<br>
 			<br>
 			<br>
-			<!-- <div class="row" style="margin: 0 auto; align-content: center;">
-				<div class="card col-md-6 col-sm-12 col-xs-12">
-					<img src="images/apoorva.jpg" class="rounded-circle" alt="Chair" style="margin:auto;width:40%">
-					<div class="card-body">
-						<name class="card-title">M K Apoorva</name>
-						<br>
-						<role class="card-text">Chair</role>
-						<br>
-						<a href="https://www.facebook.com/profile.php?id=100018343548473" class="fa fa-facebook"></a>
-						<a href="https://www.linkedin.com/in/apoorva-m-k-b23406169/" class="fa fa-linkedin"></a>
-					</div>
-				</div>
-				<div class="card col-md-6 col-sm-12 col-xs-12">
-					<img src="images/archita.jpeg" class="rounded-circle" alt="Vice Chair" style="margin:auto;width:40%">
-					<div class="card-body">
-						<name class="card-title">Archita Sajjan</name>
-						<br>
-						<role class="card-text">Vice-Chair</role>
-						<br>
-						<a href="https://en-gb.facebook.com/people/Archita-Sajjan/100019373504599"
-						class="fa fa-facebook"></a>
-						<a href="https://www.linkedin.com/in/archita-sajjan-a44410160/" class="fa fa-linkedin"></a>
-					</div>
-				</div>
-			</div>-->
 		</div>
 	</div> 
 	<div id="app" class="app"></div>
@@ -260,6 +252,8 @@
 			<div class="paragraph container" style="background-color: #ffffff;">
 				<div class="container-fluid">
 			<heading style="align-content:center;">Facebook</heading>
+			<br>
+			<br>
 			<br>
 			<br>
 		</div>
@@ -327,7 +321,7 @@
 			</div>
 		</div>
 		<br>
-		<div class="paragraph parabody" style="float: right; padding-right: 70px;">Developed by ACM-W Team with ♥</div>
+		<div class="paragraph parabody" style="float: left; padding-right: 70px;">Developed by ACM-W Team with ♥</div>
 				<br>
 				<br>
 		</div>
@@ -336,6 +330,20 @@
 	<!-- Local Imports for JS -->
 	<script type="text/javascript" src="js/header.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
+
+	<script type="text/javascript">
+		(function(w,d){
+		  function r(){
+				var s=document.createElement('script');s.async=1;s.type='text/javascript';s.src='https://chatflow.io/static/1.2/chatflow.php';(d.body||d.head).appendChild(s);
+				s.onload = function () {
+						var options = {"channels":{"messenger":"acmwnitk","email":"acmw.nitk@gmail.com"},"agentname":"ACM-W NITK","color":"#0652DD","position":"right","ctaText":"Have any questions?"}
+						cffunc = new chatflow();
+						cffunc.loadcf('init', options);
+				};
+		  }
+		  if(w.attachEvent){w.attachEvent('onload',r)}else{w.addEventListener('load',r,false)}
+		})(window, document);
+	</script>
 
 </body>
 

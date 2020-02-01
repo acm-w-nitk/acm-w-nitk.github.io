@@ -234,42 +234,33 @@ html {
   }
   
   .fa-facebook {
-	  border-color: #1b4793;
-	  border: 1px solid;
 	  color: #1b4793;
 	  margin: 10px;
   }
   
   .fa-linkedin {
-	  border-color: #1b4793;
-	  border: 1px solid;
 	  color: #1b4793;
 	  margin: 10px;
   }
   
   .fa-instagram {
-	  border-color: #1b4793;
-	  border: 1px solid;
 	  color: #1b4793;
 	  margin: 10px;
   }
   
   .fa-instagram:hover {
-	  background: #ffffff;
-	  opacity: 1.0;
+	  opacity: 0.8;
 	  border: none;
   }
   
   .fa-facebook:hover {
-	  background: #ffffff;
-	  opacity: 1.0;
+	  opacity: 0.8;
 	  border: none;
   }
   
   .fa-linkedin:hover {
-	  background: #ffffff;
-	  opacity: 1.0;
-	  border: none;
+		opacity: 0.8;
+		border: none;
   }
   
   .email-button {

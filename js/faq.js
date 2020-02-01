@@ -1,5 +1,5 @@
 const faq = [
-    { 
+      { 
         id:1,
         question:"Who are we?",
         answer:"ACM-W NITK is a student group that solely focuses on conducting events are programmes for women in NITK and beyond."
