@@ -562,3 +562,59 @@ html {
 	font-family: 'Raleway', sans-serif;
 	color: #1b4793;
   }
+
+
+  .dropbtn {
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content:before {
+    position: absolute;
+    top: -7px;
+	right: 29px;
+	color: #d33;
+    display: inline-block;
+    content: '';
+}
+
+.dropdown-content:after {
+    position: absolute;
+    top: -6px;
+    right: 30px;
+    display: inline-block;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #cfe5cc;
+    border-left: 6px solid transparent;
+    content: '';
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #cfe5cc;
+    min-width: 160px;
+
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	opacity: 0.8;
+}
+
+.dropdown:hover .dropdown-content {
+	color: #1b4793;
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #fac92C;
+	color: #f15a42;
+}
