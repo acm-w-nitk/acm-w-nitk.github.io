@@ -50,7 +50,7 @@ html {
     top: 0;
     left: 0;
     display: block;
-    background:rgb(250,201,44,0.8);
+    background:rgba(96, 235, 228, 0.8);
     z-index:2;
   }
   
@@ -581,7 +581,6 @@ html {
         -webkit-font-smoothing: antialiased;
       }
       .overflow {
-        height: 100vh;
         overflow: hidden;
       }
       .panels {
@@ -609,6 +608,7 @@ html {
       }
       .panels__side--left,
       .panels__side--right {
+          padding: 20px;
         will-change: transform;
         position: relative;
         left: -25%;
@@ -616,7 +616,7 @@ html {
                 transform: translate(0, 0);
       }
       .panels__side--left {
-        background: #f15a42;
+        
       }
       .panels__side--left:hover .arrow {
         -webkit-transform: translate(-100%, -50%);
@@ -668,8 +668,8 @@ html {
       .panels__side--inner-right,
       .panels__side--inner {
         will-change: transform;
-        padding: 0 5vw;
-        height: 55vh;
+        padding: 0 0vw;
+        height: 70vh;
       }
       .panels__side--inner-left {
         -webkit-transform-origin: right center;
