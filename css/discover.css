@@ -1,17 +1,18 @@
     body {
       background: #ffd89b;
-      background: -webkit-linear-gradient(to right, #ffd89b, #19547b);
-      background: linear-gradient(to right, #ffd89b, #19547b);
+      /* background: -webkit-linear-gradient(to right, #ffd89b, #19547b); */
+      background: linear-gradient(to right, #a6e5df, #a6e5df);
       min-height: 100vh;
     } 
     
     .header{
-      background: #f15a42;
+      background-image: url("../images/gs_event.jpg");
+      background-size: 1200px;
       text-align: center;
       color: white;
       /* font-family: 'Open Sans', sans-serif; */
       padding: 40px;
-      margin: 0px;
+      margin-top: -90px;
     }
     
     .searchbar{
@@ -63,13 +64,32 @@
         text-decoration:none;
     }
     
+
+  #overlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: block;
+    background:rgb(241, 90, 66, 0.8);
+    z-index:2;
+  }
+
     th, td {
       padding: 8px;
+      font-family: 'Raleway', sans-serif;
       text-align: center;
       border-bottom: 1px solid #ddd;
+      color: #283747;
+    }
+
+    th{
+      color: white;
+      font-size: 20px;
+      font-family: 'Alatsi', sans-serif;
+      background: #1b4793;
     }
     .tbl{ 
-    
       margin-left: auto;
       margin-right: auto;
       width: 80%;
@@ -105,6 +125,8 @@
         width: 180px;
     }
     .heading_style{
+      font-family: 'Monteserrat', sans-serif;
+      font-weight: 200;
       font-size: 35px;
     }
     .sub{
@@ -157,7 +179,6 @@
   }
   .heading{
     font-size: 70px;
-    font-weight: bold;
   }
   .sub{
     font-size: 45px;
@@ -264,11 +285,11 @@
 
 
     td.details-control {
-      background: url('../images/plus.jpg') no-repeat center center ;
+      background: url('../images/icons8-plus-50.png') no-repeat center center ;
       background-size: 20px 20px;
       cursor: pointer;
   }
   tr.shown td.details-control {
-      background: url('../images/minus.png') no-repeat center center;
+      background: url('../images/icons8-minus-50.png') no-repeat center center;
       background-size: 20px 20px;
   }
