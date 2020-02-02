@@ -118,7 +118,7 @@
   left: 45vw;
   width: 3px;
   height: 3px;
-  border: solid 2px white;
+  border: solid 4px white;
   -webkit-transform-origin: top left;
           transform-origin: top left;
   -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
