@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
 	<title>ACM-W NITK</title>
 	<meta charset="utf-8">
@@ -17,10 +14,11 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<!-- Local Imports for CSS -->
+ 	<!-- Local Imports for CSS -->
 	<link rel="stylesheet" href="css/index.css">
-	<link rel="stylesheet" href="css/mentorship.css">
+	
 
 	<!-- CDN Imports for JS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -45,6 +43,20 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="images/icons/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+	<!-- accordion -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+
+	<!-- Google Analytics-->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156009380-1"></script>
+	<script>
+  	window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+
+  	gtag('config', 'UA-156009380-1');
+	</script>
 </head>
 
 <body>
@@ -63,10 +75,21 @@
 						<a class="nav-link" href="#about"><b>ABOUT</b></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#activities"><b>GET INVOLVED</b></a>
+							<div class="dropdown">
+									<a class="nav-link" href="#activities"><b>GET INVOLVED</b></a>
+									<div class="dropdown-content">
+									  <a href="html/events.html"><b>OUR EVENTS</b></a>
+									  <a href="html/mentorship.html"><b>MENTORSHIP PROGRAMME</b></a>
+									  <a href="html/discover.html"><b>DISCOVER OPPORTUNITIES</b></a>
+									</div>
+								  </div>
+						
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#team"><b>THE TEAM</b></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#faq"><b>FAQs</b></a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#contact"><b>CONTACT</b></a>
@@ -79,100 +102,49 @@
 	<div class="main-header">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="container-fluid header-text">
-					<p1><b>ACMW NITK</b></p1>
+				<link rel="stylesheet" href="css/background.css">
+				<div class="hero container-fluid" style="background-color: transparent; height: auto;"> 
+					<!-- <div class="hero__title">Hello World</div> -->
+					<div class="cube"></div>
+					<div class="cube"></div>
+					<div class="cube"></div>
+					<div class="cube"></div>
+					<div class="cube"></div>
+					<div class="cube"></div>
+					<div class="cube"></div>
+					<div class="cube"></div>
+					<div class="cube"></div>
+					<div class="cube"></div>
+					<div class="container-fluid header-text">
+					<div class="overlap">
+					<p1>ACM-W<b> NITK</b></p1>
 					<br>
 					<p2>Association for Computing Machinery - Women</p2>
 					<hr>
-					<p2>Inform. Involve. Inspire</p2>
+					<p2 class="ml3">Inform  Involve  Inspire</p2>
+					</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="about container-fluid" style="align-items: center; align-items: center; padding: 70px;" id="about">
-		<div class="row container about" style="align-content: center;">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<heading>About Us</heading>
-				<br>
-				<br>
-				<br>
-				<parabody><b>ACM-W is an international organisation which supports and empowers women in all aspects of the computing field. ACM-W NITK is a thriving student chapter that was incepted in the summer of 2019. We at ACM-W, NITK chapter wish to inspire and nurture young minds to step up and make a mark in the universe of technology. Our aim is to promote learning and create a workspace where the ideas of young women can take shape and build the future.From providing a wide range of opportunities, to working in a larger community to advance contributions by creative minds, ACM-W NITK aims to be a stepping stone for women to be celebrated and create a difference.</b>
- 				</parabody>
-			</div>
-		</div>
-	</div>
-<!--	<div class="activities container-fluid" id="activities">
-		<br>
-		<div id="activity-carousel" class="carousel slide" data-ride="carousel">
-			<ul class="carousel-indicators">
-				<li data-target="#activity-carousel" data-slide-to="0" class="active"></li>
-				<li data-target="#activity-carousel" data-slide-to="1"></li>
-				<li data-target="#activity-carousel" data-slide-to="2"></li>
-			</ul>
+	</div> 
 
-			<div class="carousel-inner container" style="padding: 20px; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);">
-				<div class="carousel-item active">
-					<div class="row">
-						<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
-							<img src="images/slide0.jpg" alt="Discover opportunities" style="margin-top: 10%">
-						</div>
-						<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
-							<div class="paragraph">
-								<heading>Discover Opportunities</heading>
-								<br>
-								<parabody>Join ACM-W to make a difference and get your ideas sculpted into reality. From multiple scholarships, to competitions,
-								the NITK chapter has a plethora of events lined up. Work on various projects and make a mark in the computational world.
-								Apart from setting goals in the computing universe, meet new people and researchers with a similar mindset who aim to
-								make a similar change in today’s world.
-								<a href="html/discover.html">Click here for more</a>
-								</parabody>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="carousel-item">
-					<div class="row">
-						<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
-              				<img src="images/slide1.jpg" alt="Our Events" style="margin-top: 15%">
-						</div>
-						<div class="paragraph col-lg-7 col-md-12 col-sm-12 col-xs-12">
-							<heading>Our Events</heading>
-							<br>
-							<parabody>ACM-W aims at holding events in order to empower women in various fields of technology whether it's in a classroom or a
-							boardroom. Our events are carefully curated for the education and advancement of women in the technical sphere. In our NITK chapter of ACM-W, we aspire to hold events that will provide opportunities for women to come forward and
-							learn more about the technical world.
-							<a href="html/events.html">Click here for more</a>
-						    </parabody>
-						</div>
-					</div>
-				</div>
-
-				<div class="carousel-item">
-					<div class="row">
-						<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
-              <img src="images/slide2.jpg" alt="Major Events" style="margin-top: 10%">
-						</div>
-						<div class="paragraph col-lg-7 col-md-12 col-sm-12 col-xs-12">
-							<heading>Mentorship System</heading>
-							<br>
-							<parabody>
-									As an initiative of ACM-W, we plan to introduce a mentorship system, wherein a junior is paired with a senior from ACM to guide them in their journey through college. We hope to help them with academics, career planning, research opportunities and to explore new fields. It gives them a chance to talk to people that have had first-hand experience with coveted research programmes and internships alike.
-									<a href="html/mentorship.html">Click here for more</a>
+	<div class="about container-fluid" style="align-items: center; align-items: center;  " id="about" class="about">
+		<div class="row">
+			<div class="container about" style="align-content: center;">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<br>
+						<heading>About Us</heading>
+						<br>
+						<br>
+						<br>
+						<parabody><b>ACM-W is an international organisation which supports and empowers women in all aspects of the computing field. ACM-W NITK is a thriving student chapter that was incepted in the summer of 2019. We at ACM-W, NITK chapter wish to inspire and nurture young minds to step up and make a mark in the universe of technology. Our aim is to promote learning and create a workspace where the ideas of young women can take shape and build the future.From providing a wide range of opportunities, to working in a larger community to advance contributions by creative minds, ACM-W NITK aims to be a stepping stone for women to be celebrated and create a difference.</b>
 							</parabody>
-						</div>
 					</div>
-				</div>
-				<a class="carousel-control-prev" href="#activity-carousel" data-slide="prev">
-					<span class="carousel-control-prev-icon"></span>
-				</a>
-				<a class="carousel-control-next" href="#activity-carousel" data-slide="next">
-					<span class="carousel-control-next-icon"></span>
-				</a>
 			</div>
 		</div>
-	</div> --->
-	<div id=activities class="container-fluid" style="background-image: url('./images/discoppback.svg'); background-repeat: no-repeat; background-size: 100%">
+	</div>
+	<div id=activities class="container-fluid" style="background-image: url('./images/discoppback.svg'); background-size: 100%; background-size:cover">
 		<br>
 		<br>
 		<br>
@@ -195,9 +167,9 @@
 					<div class="paragraph" style="margin-left: 15px; margin-right: 15px;text-align: center;">
 						<heading style="border: none;">Events</heading>
 						<br>
-						<parabody style="font-family: 'Raleway', sans-serif; font-size: 17px;"><b>ACM-W aims at holding events in order to empower women in various fields of technology whether it's in a classroom or a
+						<parabody style="font-family: 'Monteserrat', sans-serif; font-size: 17px;">ACM-W aims at holding events in order to empower women in various fields of technology whether it's in a classroom or a
 						boardroom. Our events are carefully curated for the education and advancement of women in the technical sphere.
-						<a href="html/events.html">Click here for more</a></b>
+						<a style="color:white" href="html/events.html">Click here for more</a>
 						</parabody>
 					</div>
 				</div>
@@ -211,8 +183,8 @@
 					<div class="paragraph" style="margin-left: 15px; margin-right: 15px;text-align: center;">
 						<heading style="border: none;">Mentorship Programme</heading>
 						<br>
-						<parabody style="font-family: 'Raleway', sans-serif; font-size: 17px;"><b>As an initiative of ACM-W, we plan to introduce a mentorship system, wherein a junior is paired with a senior from ACM to guide them in their journey through college. We hope to help them with academics, career planning, research opportunities and to explore new fields.
-						<a href="html/mentorship.html">Click here for more</a></b>
+						<parabody style="font-family: 'Raleway', sans-serif; font-size: 17px;">A program to encourage senior-junior interaction, help them with academics, career planning, research opportunities and to explore new fields.
+						<a style="color:white" href="html/mentorship.html">Click here for more</a>
 					</parabody>
 					</div>
 				</div>
@@ -226,9 +198,9 @@
 					<div class="paragraph" style="margin-left: 15px; margin-right: 15px;text-align: center;">
 						<heading style="border: none;">Discover opportunities</heading>
 						<br>
-						<parabody style="font-family: 'Raleway', sans-serif; font-size: 17px;"><b>Join ACM-W to make a difference and get your ideas sculpted into reality. From multiple scholarships, to competitions and prestigious conferences. We've curated them all!
-						<a href="html/events.html">Click here for more</a>
-						</b></parabody>
+						<parabody style="font-family: 'Raleway', sans-serif; font-size: 17px;">Join ACM-W to make a difference and get your ideas sculpted into reality. From multiple scholarships, to competitions and prestigious conferences. We've curated them all!
+						<a style="color:white" href="html/discover.html">Click here for more</a>
+						</parabody>
 					</div>
 				</div>
 			</div>
@@ -246,40 +218,53 @@
 			<br>
 			<br>
 			<br>
-			<div class="row" style="margin: 0 auto; align-content: center;">
-				<div class="card col-md-6 col-sm-12 col-xs-12">
-					<img src="images/apoorva.jpg" class="rounded-circle" alt="Chair" style="margin:auto;width:40%">
-					<div class="card-body">
-						<name class="card-title">M K Apoorva</name>
-						<br>
-						<role class="card-text">Chair</role>
-						<br>
-						<a href="https://www.facebook.com/profile.php?id=100018343548473" class="fa fa-facebook"></a>
-						<a href="https://www.linkedin.com/in/apoorva-m-k-b23406169/" class="fa fa-linkedin"></a>
+		</div>
+	</div> 
+	<div id="app" class="app"></div>
+	<script src="js/members.js"></script>
+	<br>
+	<br>
+
+	<div class="container">
+		<div class="row">
+		  <div class="col-sm-12 col-md-8">
+			<div class="paragraph container" style="background-color: #ffffff;">
+				<div class="container-fluid" id="faq">
+					<heading style="align-content:center;">Frequently Asked Questions</heading>
+					<br>
+					<div class="container1">
+						<div id="app1"></div>
 					</div>
-				</div>
-				<div class="card col-md-6 col-sm-12 col-xs-12">
-					<img src="images/archita.jpeg" class="rounded-circle" alt="Vice Chair" style="margin:auto;width:40%">
-					<div class="card-body">
-						<name class="card-title">Archita Sajjan</name>
-						<br>
-						<role class="card-text">Vice-Chair</role>
-						<br>
-						<a href="https://en-gb.facebook.com/people/Archita-Sajjan/100019373504599"
-							class="fa fa-facebook"></a>
-						<a href="https://www.linkedin.com/in/archita-sajjan-a44410160/" class="fa fa-linkedin"></a>
-					</div>
-				</div>
+				  </div>
 			</div>
+			  <script src="js/faq.js"></script>
+		  </div>
+		  <div class="col-sm-12 col-md-4" style="text-align: center;">
+			<div class="paragraph container" style="background-color: #ffffff;">
+				<div class="container-fluid">
+			<heading style="align-content:center;">Facebook</heading>
+			<br>
+			<br>
+			<br>
+			<br>
 		</div>
 	</div>
+			<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Facmwnitk%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" align="middle" style="border:none;overflow:hidden;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+		  </div>
+		  
+		</div>
+	  </div>
 
-	<div class="container-fluid" id="contact" style="background-image: url('./images/contactback.svg') ; background-repeat: no-repeat;  background-size: 100%;
+
+
+	
+
+	  
+	<div class="container-fluid" id="contact" style="background-image: url('./images/contactback.svg') ;   background-size: 100%; background-size:cover;
 	padding:20px;">
 		<div class="container row">
 			<div class="col-lg-9 col-md-12 col-xs-12 col-sm-12">
 				<div class="paragraph" style="font-family: 'Lato', sans-serif; font-weight: 100;">
-				<br>
 				<br>
 				<br>
 				<br>
@@ -292,10 +277,13 @@
 				</div>
 				<br>
 				<br>
-				<div align="middle" class="button-container" style="width: 300px; text-decoration: none"><a
-						href="mailto: acmw.nitk@gmail.com" class="email-button button-container"
-						style="text-decoration: none">acmw.nitk@gmail.com</a>
+				<div align="middle">
+						<div align="middle" class="button-container" style="width: 300px; text-decoration: none"><a
+							href="mailto: acmw.nitk@gmail.com" class="email-button button-container"
+							style="text-decoration: none">acmw.nitk@gmail.com</a>
 					</div>
+				</div>
+				
 				<br>
 				<br>
 				<div class="button-container" align="middle">
@@ -305,33 +293,30 @@
 				</div>
 				<br>
 			</div>
+
+
+
+			
 			<div class="col-lg-3 col-sm-12 col-md-12 col-xs-12 paragraph">
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
+				<div class="yellow">
 				<div style="margin-left: 55px">
 				<img src="./images/map.png" style="width: 10%;">
 				<br>
 				<br>
-					<parabody style="padding-left: 7px; font-family: 'Raleway', sans-serif; font-size: 17px;">
-						<b>National Institute of Technology Karnataka Surathkal.<br>NH 66, Srinivasnagar, Surathkal, Mangalore, Karnataka 575025</b>
+					<parabody style="padding-left: 7px; padding-top:100px; margin-top:100px;font-family: 'Raleway', sans-serif; font-size: 17px;">
+						National Institute of Technology Karnataka Surathkal.<br>NH 66, Srinivasnagar, Surathkal, Mangalore, Karnataka 575025
 						<br>
 						<br>
-						<p><b>📞 : +91 9902921511</b></p>
+						<p>📞 : +91 9902921511</p>
 						<br>
 					</parabody>
 				</div>
+				</div>
+
 			</div>
 		</div>
 		<br>
-		<div class="paragraph parabody" style="float: right; padding-right: 70px;">Developed by ACM-W Team with ♥</div>
+		<div class="paragraph parabody" style="float: left; padding-right: 70px;">Developed by ACM-W Team with ♥</div>
 				<br>
 				<br>
 		</div>
@@ -340,6 +325,20 @@
 	<!-- Local Imports for JS -->
 	<script type="text/javascript" src="js/header.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
+
+	<script type="text/javascript">
+		(function(w,d){
+		  function r(){
+				var s=document.createElement('script');s.async=1;s.type='text/javascript';s.src='https://chatflow.io/static/1.2/chatflow.php';(d.body||d.head).appendChild(s);
+				s.onload = function () {
+						var options = {"channels":{"messenger":"acmwnitk","email":"acmw.nitk@gmail.com"},"agentname":"ACM-W NITK","color":"#0652DD","position":"right","ctaText":"Have any questions?"}
+						cffunc = new chatflow();
+						cffunc.loadcf('init', options);
+				};
+		  }
+		  if(w.attachEvent){w.attachEvent('onload',r)}else{w.addEventListener('load',r,false)}
+		})(window, document);
+	</script>
 
 </body>
 
