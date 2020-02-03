@@ -332,7 +332,7 @@ function format ( d ) {
 var table;
 $(document).ready(function() {
   table = $('#example').DataTable( {
-      "ajax": "https://raw.githubusercontent.com/yashkumar0707/learngit/master/data.json",
+      "ajax": "https://raw.githubusercontent.com/acm-w-nitk/ACM-W-Resources/master/acm-w-resources.json",
       "responsive":true,
 
   "pagingType": "simple",
