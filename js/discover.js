@@ -345,7 +345,7 @@ $(document).ready(function() {
           },
           { "data": "name" },
           { "data": "organiser" },
-          { "data": "eligibility"},
+          { "data": "typeOfEvent"},
       ],
       "order": [[1, 'asc']]
   } );
