@@ -333,6 +333,9 @@ var table;
 $(document).ready(function() {
   table = $('#example').DataTable( {
       "ajax": "https://raw.githubusercontent.com/yashkumar0707/learngit/master/data.json",
+      "responsive":true,
+
+  "pagingType": "simple",
       "columns": [
           {
               "className":      'details-control',
