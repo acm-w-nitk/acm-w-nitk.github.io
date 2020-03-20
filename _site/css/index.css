@@ -172,9 +172,9 @@ html {
   }
   
   .fa {
-	  padding: 15px;
-	  width: 50px;
-	  height: 50px;
+	  padding: 0px;
+	  width: 10px;
+	  height: 10px;
 	  border-radius: 50%;
   }
   
@@ -298,9 +298,9 @@ html {
   
   .paragraph heading{
 	  font-family: 'Alatsi', sans-serif;
-	  padding-bottom: 10px;
+	  padding-bottom: 5px;
 	  color: #1b4793;
-	  border-bottom: 5px solid #f15a42; 
+	  border-bottom: 4px solid #f15a42; 
 	  text-align: center;
   }
   
