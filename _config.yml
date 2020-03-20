@@ -1,1 +1,24 @@
-theme: jekyll-theme-architect
+title:              ACM-W NITK's Blog
+email:              acmw.nitk@gmail.com
+description:        A collection of the musings of our members
+author:             Start Bootstrap
+baseurl:            ""
+url:                "https://acm-w-nitk.github.io"
+
+# Social Profiles
+twitter_username:   
+github_username:    acm-w-nitk
+facebook_username:  acmwnitk
+linkedin_username:  company/acm-w-nitk/
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
