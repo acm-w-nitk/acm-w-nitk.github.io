@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Posts
+title: Musings
 background: '/img/bg-blog.jpg'
 ---
 
@@ -21,7 +21,7 @@ background: '/img/bg-blog.jpg'
     {% else %}
     {{ site.author }}
     {% endif %}
-    on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
+    on {{ post.date | date: '%B %d' }} 2020 &middot; {% include read_time.html content=post.content %}
   </p>
 </article>
 
