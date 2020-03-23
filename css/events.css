@@ -176,6 +176,10 @@ html {
   
   .card-body{
       font-family: 'Raleway', sans-serif;
+      font-family: 'Raleway', sans-serif;
+	  font-size: 17px;
+	  color: #1b4793;
+	  text-align: justify;
   }
   
   .card-body name{
