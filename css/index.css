@@ -385,7 +385,6 @@ html {
 	  .main-header p2{
 		  font-size: 45px;
 	  }
-  
   }
   
   /* lg */
@@ -542,8 +541,16 @@ html {
     overflow: hidden;
 	width: 60%;
 	border-radius: 50%;
-	
 }
+.image-box1 {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+	width: 60%;
+	border-radius: 50%;
+	/* max-width: 40%; */
+}
+
 
   .rounded-circle{
 	margin:auto;width:100%;
@@ -617,3 +624,10 @@ html {
 	background-color: #fac92C;
 	color: #f15a42;
 }
+
+  @media (min-width: 768px) {
+  
+	  .image-box1{
+		width: 40%;
+	}
+  }
