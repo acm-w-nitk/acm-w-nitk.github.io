@@ -26,22 +26,31 @@ anime.timeline({loop: true})
     delay: 1000
   });
 
-  change_numbers = Array.from(document.getElementsByClassName("display-num"));
-  var run_interval = 40;
+  var change_numbers = Array.from(document.getElementsByClassName("display-num"));
+  var run_interval = 40, max_int = 13;
   
   var change_number_interval = setInterval(function changeNumbers(){
 
     for(i=0 ; i<change_numbers.length; i++){
-      random_number = Math.floor(Math.random() * 13);
+      random_number = Math.floor(Math.random() * max_int);
       change_numbers[i].getElementsByClassName("num-center")[0].innerHTML = random_number;
-      if(i== 0 && random_number == 0){
+      if(i== 0 && random_number == 0 ){
         change_numbers.shift();
+        if(change_numbers.length!=0)
+          max_int = Math.max(parseInt(change_numbers[0].getElementsByClassName("num-center")[0].innerHTML), 5);
       }
     }
 
-    if(change_numbers == {}){
-      clearInterval(change_number_interval);
+    if(change_numbers.length == 0){
       startConfetti();
+      clearInterval(change_number_interval);
     }
 
   }, run_interval, change_numbers);
+
+  function startConfetti(){
+    document.getElementsByClassName("main-timer")[0].classList.add('animate-pop');
+    document.getElementById("anniv-text").classList.add('rainbow');
+    confetti.start();
+    return;
+  }

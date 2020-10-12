@@ -180,17 +180,22 @@
 
 	<!-- ACM-W 1 Year Anniversary Timer -->
 	<section id="anniv-timer">
-		<div class="col-6">
-			<div class="main-timer container-fluid">
-				<div class="display-num"><span class="num-center">1</span></div>
-				<div class="display-num" style="margin-left: 0px;"><span class="num-center">3</span></div>
-				<div class="colon-separator"><span class="num-center">:</span></div>
-				<div class="display-num"><span class="num-center">3</span></div>
-				<div class="display-num" style="margin-left: 0px;"><span class="num-center">3</span></div>
-				<div class="colon-separator"><span class="num-center">:</span></div>
-				<div class="display-num"><span class="num-center">3</span></div>
-				<div class="display-num" style="margin-left: 0px;"><span class="num-center">3</span></div>
-			</div>
+		<div class="col-12" style="display: flex;">
+			<div class="col-12">
+				<div class="main-timer container-fluid">
+					<div class="display-num"><span class="num-center">1</span></div>
+					<div class="display-num" style="margin-left: 0px;"><span class="num-center">3</span></div>
+					<div class="colon-separator"><span class="num-center">:</span></div>
+					<div class="display-num"><span class="num-center">3</span></div>
+					<div class="display-num" style="margin-left: 0px;"><span class="num-center">3</span></div>
+					<div class="colon-separator"><span class="num-center">:</span></div>
+					<div class="display-num"><span class="num-center">3</span></div>
+					<div class="display-num" style="margin-left: 0px;"><span class="num-center">3</span></div>
+				</div>
+			</div>	
+		</div>
+		<div class="col-12 container-fluid" id="anniv-text">
+			Yayy ACM W has completed its First Year
 		</div>
 	</section>
 
@@ -412,11 +417,12 @@
 	</div>
 
 	<!-- Local Imports for JS -->
+	<script src="https://cdn.jsdelivr.net/gh/mathusummut/confetti.js/confetti.min.js"></script>
 	<script type="text/javascript" src="js/header.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
-	<script src="jquery.confetti.js"></script>
 
 	<script type="text/javascript">
+
 		(function (w, d) {
 			function r() {
 				var s = document.createElement('script'); s.async = 1; s.type = 'text/javascript'; s.src = 'https://chatflow.io/static/1.2/chatflow.php'; (d.body || d.head).appendChild(s);
@@ -428,6 +434,7 @@
 			}
 			if (w.attachEvent) { w.attachEvent('onload', r) } else { w.addEventListener('load', r, false) }
 		})(window, document);
+
 	</script>
 
 </body>

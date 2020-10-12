@@ -357,7 +357,30 @@ html {
 	font-size: large;
 	font-weight: bolder;
   }
-
+  
+  #anniv-text{
+	  display: flex; 
+	  align-items: center; 
+	  justify-content:center; 
+	  font-size: 42px; 
+	  margin-top: 20px; 
+	  font-family: 'Alatsi', sans-serif;
+  }
+  
+  .rainbow{
+	  animation-name: rainbow-animate;
+	  animation-duration: 2s;
+	  animation-fill-mode: forwards;
+  }
+  @keyframes rainbow-animate{
+	100% {
+		background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+		background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+		color:transparent;
+		-webkit-background-clip: text;
+		background-clip: text;
+	}
+  }
   /* xs */
   @media (min-width: 0px) {
   
@@ -670,4 +693,18 @@ html {
 	  .image-box1{
 		width: 40%;
 	}
+  }
+
+  .animate-pop{
+	  animation-name: pop;
+	  animation-duration: .75s;
+  }
+
+  @keyframes pop{
+	  75% {
+		transform: scale(1.25);
+	  }
+	  100%{
+		  transform: scale(1.0);
+	  }
   }
