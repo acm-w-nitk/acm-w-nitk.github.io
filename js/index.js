@@ -25,3 +25,23 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 1000
   });
+
+  change_numbers = Array.from(document.getElementsByClassName("display-num"));
+  var run_interval = 40;
+  
+  var change_number_interval = setInterval(function changeNumbers(){
+
+    for(i=0 ; i<change_numbers.length; i++){
+      random_number = Math.floor(Math.random() * 13);
+      change_numbers[i].getElementsByClassName("num-center")[0].innerHTML = random_number;
+      if(i== 0 && random_number == 0){
+        change_numbers.shift();
+      }
+    }
+
+    if(change_numbers == {}){
+      clearInterval(change_number_interval);
+      startConfetti();
+    }
+
+  }, run_interval, change_numbers);
