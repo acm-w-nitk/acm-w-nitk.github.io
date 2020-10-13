@@ -50,7 +50,7 @@ anime.timeline({loop: true})
 
   function startConfetti(){
     document.getElementsByClassName("main-timer")[0].classList.add('animate-pop');
-    document.getElementById("anniv-text").classList.add('rainbow');
+    document.getElementById("text-inner").classList.add('rainbow');
     confetti.start();
     return;
   }

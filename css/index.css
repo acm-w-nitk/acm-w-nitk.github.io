@@ -372,6 +372,7 @@ html {
 	  animation-duration: 2s;
 	  animation-fill-mode: forwards;
   }
+  
   @keyframes rainbow-animate{
 	100% {
 		background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
@@ -422,10 +423,6 @@ html {
   
 	  .main-header p2{
 		  font-size: 35px;
-	  } 
-	  #anniv-timer .main-timer{
-		width: 300px;
-		height: 150px;
 	  } 
   }
   
@@ -708,3 +705,12 @@ html {
 		  transform: scale(1.0);
 	  }
   }
+
+@media (max-width: 576px) {
+  
+	#anniv-timer .main-timer{
+		width: 80vw;
+		height: 40vw;
+	} 
+	
+}
