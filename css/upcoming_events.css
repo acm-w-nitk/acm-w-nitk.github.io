@@ -1,0 +1,152 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  
+  body{
+    background-color: #020202;
+    color: white;
+    overflow-x: hidden;
+    }  
+
+  
+  .header{
+    background-color: white;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+    z-index: 10;
+    position: fixed;
+    }
+  
+  .header.active {
+	  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+  }
+  
+  .nav-options ul li a{
+	  padding-top: 21px;
+	  padding-bottom: 17px;
+	  width: auto;
+	  height: 110%;
+	  font-size: 14px;
+	  text-decoration: none;
+	  color: black;
+	  font-family: 'Raleway', sans-serif;
+  }
+  
+  .chapter_name{
+	  text-align: center;
+	  font-size: 30px;
+	  text-decoration: none;
+	  color: black;
+  }
+  
+  .nav-options ul > li a:hover {
+	  background-color: black;
+	  color: white;
+  }
+  
+  button.hamburger{
+	display: none;
+  }
+  
+  @media only screen and (max-width: 576px){
+	  .nav-options li{
+		  display: none;
+	  }
+  
+	button.hamburger{
+	  align-self: flex-end;
+	  display: block;
+	  padding: 2vw;
+	  outline: none!important;
+	  font-size: 3vh;
+	  background-color: transparent;
+	  border: none;
+	  cursor: pointer;
+	  color: #ffffff;
+	  margin-top: 5px;
+	  }
+  
+	.nav-options ul{
+	  flex-direction: column;
+	}
+  
+	.nav-options li{
+	  margin: 0;
+	}
+  
+	  .nav-options a{
+	  display: block;
+	}
+  }
+
+    .logo{
+        margin-top: 5px;
+    }
+
+    .img-logo {
+        height:60px;
+        width:60px;
+        padding: 5px;
+    }
+
+    #motivational-speaker-text{
+        padding: 200px;
+        font-family: 'Alatsi', sans-serif;
+        font-size: 24px;
+    }
+
+    #motivational-speaker-carousel{
+        width: 100vw;
+        height: 50vh;
+        position: fixed;
+        opacity: 0.55;
+        z-index: -10;
+        top:-300px;
+    }
+
+    .parallax {
+        /* The image used */
+        background-image: url("img_parallax.jpg");
+      
+        /* Set a specific height */
+        height: 500px;
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    
+      #upcoming-events-section{
+          width: 100vw;
+          height: 200vh;
+          margin-top: 600px;
+          z-index: 20;
+          background-color: white; 
+          position: absolute;  
+      }
+
+      #upcoming-events-title{
+          width: 100vw;
+          height: 50vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 64px;
+          font-weight: 600;
+          color: white;
+
+      }
+
+      .pedestal-speakers{
+          width: 100%;
+          height: 50vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          z-index: 30;
+      }
+      .pedestal-speakers span{
+          z-index: inherit;
+      }
