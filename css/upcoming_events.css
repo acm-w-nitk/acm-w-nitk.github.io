@@ -13,7 +13,7 @@ html {
   .header{
     background-color: white;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.6);
-    z-index: 10;
+    z-index: 50;
     position: fixed;
     }
   
@@ -95,15 +95,6 @@ html {
         font-size: 24px;
     }
 
-    #motivational-speaker-carousel{
-        width: 100vw;
-        height: 50vh;
-        position: fixed;
-        opacity: 0.55;
-        z-index: -10;
-        top:-300px;
-    }
-
     .parallax {
         /* The image used */
         background-image: url("img_parallax.jpg");
@@ -125,7 +116,19 @@ html {
           z-index: 20;
           background-color: white; 
           position: absolute;  
+          display: flex;
+          justify-content: center;
       }
+
+      
+      #motivational-speaker-carousel{
+        width: 100vw;
+        height: 50vh;
+        position: fixed;
+        opacity: 0.55;
+        z-index: -10;
+        top: -15vw;
+    }
 
       #upcoming-events-title{
           width: 100vw;
@@ -149,4 +152,32 @@ html {
       }
       .pedestal-speakers span{
           z-index: inherit;
+      }
+
+      .title{
+        color: #1b4793;
+        font-size: 48px;
+        z-index: 40;
+        padding: 30px;
+        text-align: center;
+      }
+
+      .standalone-event{
+        color: black;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+      }
+      .standalone-event .card{
+        width: 70%;
+      }
+
+      @media only screen and (max-width: 1200px){
+        #motivational-speaker-carousel{
+          top: 0px;
+        }
+
+        .standalone-event .card{
+          width: 90%;
+        }
       }
