@@ -11,7 +11,7 @@ html {
 
   
   .header{
-    background-color: white;
+    background-color: #f15a42;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.6);
     z-index: 50;
     position: fixed;
@@ -28,7 +28,7 @@ html {
 	  height: 110%;
 	  font-size: 14px;
 	  text-decoration: none;
-	  color: black;
+	  color: white;
 	  font-family: 'Raleway', sans-serif;
   }
   
@@ -48,6 +48,11 @@ html {
 	display: none;
   }
   
+  .standalone-event .card{
+    width: 55%;
+    border: 1px solid black;
+  }
+
   @media only screen and (max-width: 576px){
 	  .nav-options li{
 		  display: none;
@@ -75,8 +80,16 @@ html {
 	}
   
 	  .nav-options a{
-	  display: block;
-	}
+    display: block;
+    }
+
+    .standalone-event .card{
+      width: 90%;
+      border: 1px solid black;
+    }
+    
+
+
   }
 
     .logo{
@@ -166,9 +179,6 @@ html {
         display: flex;
         justify-content: center;
         margin-bottom: 60px;
-      }
-      .standalone-event .card{
-        width: 70%;
       }
 
       @media only screen and (max-width: 1200px){
@@ -264,6 +274,14 @@ html {
         background-color: #ffffff;
       }
 
+      .paragraph heading{
+        font-family: 'Alatsi', sans-serif;
+        padding-bottom: 5px;
+        color: #1b4793;
+        border-bottom: 4px solid #f15a42; 
+        text-align: center;
+      }
+
        /* xs */
   @media (min-width: 0px) {
   
@@ -276,7 +294,8 @@ html {
 	  }
 	  .paragraph{
 		padding-top: 20px;
-	}
+    }
+    
   }
   
   /* sm */
@@ -288,7 +307,7 @@ html {
   
 	  .paragraph parabody{
 		  font-size: 20px;
-	  }
+    }
   
   }
   
@@ -318,8 +337,11 @@ html {
 		  padding-top: 210px;;
 	  }
 	  .paragraph{
-		padding-top: 0px;
-	}
+    padding-top: 0px;
+  }
+    .card-block .card-text:nth-child(odd){
+      font-size: 19px;
+    }
   }
   
     /* xl */
@@ -332,4 +354,27 @@ html {
       .paragraph parabody{
         font-size: 25px;
       }
+  }
+
+  h4.card-title{
+    font-size: 42px;
+    font-family: 'Alatsi', sans-serif;
+  }
+
+  .card-block .card-text:nth-child(even){
+    font-style: italic;
+    font-size: 24px;
+  }
+
+  #upcoming-events-list div heading{
+    font-family: 'Alatsi', sans-serif;
+	  padding-bottom: 5px;
+	  color: #1b4793;
+	  border-bottom: 5px solid #f15a42; 
+    font-size: 48px;
+    font-weight: bolder;
+  }
+
+  .card-content{
+    background: repeating-linear-gradient(45deg, white 0%,  white 85%, #f15a42 85%, #f15a42 100%);
   }
