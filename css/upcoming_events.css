@@ -40,8 +40,8 @@ html {
   }
   
   .nav-options ul > li a:hover {
-	  background-color: black;
-	  color: white;
+	  background-color: #fac92C;
+	  color: #f15a42;
   }
   
   button.hamburger{
@@ -87,10 +87,24 @@ html {
       width: 90%;
       border: 1px solid black;
     }
-    
-
 
   }
+
+    .sponsors{
+      margin-top: 60px;
+    }
+    
+    .sponsors .card{
+      border: none;
+      /* background: repeating-linear-gradient(35deg, #f15a42 0%, #f15a42 10%,  #5680e9 10%, #5680e9 20%); */
+      background-color: #f15a42;
+    }
+
+    .sponsor-title{
+      text-align: center;
+      width: 100%;
+      color: white;
+    }
 
     .logo{
         margin-top: 5px;
@@ -372,9 +386,23 @@ html {
 	  color: #1b4793;
 	  border-bottom: 5px solid #f15a42; 
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 500;
   }
 
-  .card-content{
-    background: repeating-linear-gradient(45deg, white 0%,  white 85%, #f15a42 85%, #f15a42 100%);
+  .btn-default {
+    font-family: 'Alatsi', sans-serif;
+    font-size: 13px;
+    color: rgba(108, 88, 179, 0.75);
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid rgba(108, 89, 179, 0.75);
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.2s ease 0s;
+  }
+  
+  .btn-default:hover {
+    color: #FFF;
+    background: rgba(108, 88, 179, 0.75);
+    border: 2px solid rgba(108, 89, 179, 0.75);
   }
