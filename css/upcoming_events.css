@@ -111,11 +111,9 @@ html {
     
       #upcoming-events-section{
           width: 100vw;
-          height: 200vh;
           margin-top: 600px;
           z-index: 20;
           background-color: white; 
-          position: absolute;  
           display: flex;
           justify-content: center;
       }
@@ -167,6 +165,7 @@ html {
         width: 100vw;
         display: flex;
         justify-content: center;
+        margin-bottom: 60px;
       }
       .standalone-event .card{
         width: 70%;
@@ -181,3 +180,156 @@ html {
           width: 90%;
         }
       }
+
+      .fa-facebook {
+        color: #1b4793;
+        margin: 10px;
+      }
+      
+      .fa-linkedin {
+        color: #1b4793;
+        margin: 10px;
+      }
+      
+      .fa-instagram {
+        color: #1b4793;
+        margin: 10px;
+      }
+      
+      .fa-instagram:hover {
+        opacity: 0.8;
+        border: none;
+      }
+      
+      .fa-facebook:hover {
+        opacity: 0.8;
+        border: none;
+      }
+      
+      .fa-linkedin:hover {
+        opacity: 0.8;
+        border: none;
+      }
+      
+      .email-button {
+      background-color: #1b4793;
+      color : white;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 15px;
+      text-align: center;
+      font-style: bold;
+      width: 180px;
+      text-decoration: none;
+      }
+      
+      .email-button:hover{
+        border: 0px;
+        background-color: #ffffff;
+      }
+      .header-text {
+        margin-top:100px;
+      }
+      
+      img {
+      
+        width:100%;
+      }
+      
+      .img-logo {
+        height:60px;
+        width:60px;
+        padding: 5px;
+      }
+      
+      .paragraph heading{
+        font-family: 'Alatsi', sans-serif;
+        padding-bottom: 5px;
+        color: #1b4793;
+        border-bottom: 4px solid #f15a42; 
+        text-align: center;
+      }
+      
+      .paragraph parabody{
+        font-family: 'Raleway', sans-serif;
+        font-size: 17px;
+        color: #1b4793;
+        text-align: justify;
+      }
+
+      #contact-us-section{
+        background-color: #ffffff;
+      }
+
+       /* xs */
+  @media (min-width: 0px) {
+  
+	  .paragraph heading{
+		  font-size: 30px;
+	  }
+  
+	  .paragraph parabody{
+		  font-size: 20px;
+	  }
+	  .paragraph{
+		padding-top: 20px;
+	}
+  }
+  
+  /* sm */
+  @media (min-width: 576px) {
+  
+	  .paragraph heading{
+		  font-size: 30px;
+	  }
+  
+	  .paragraph parabody{
+		  font-size: 20px;
+	  }
+  
+  }
+  
+  /* md */
+  @media (min-width: 768px) {
+  
+	  .paragraph heading{
+		  font-size: 35px;
+	  }
+  
+	  .paragraph parabody{
+		  font-size: 25px;
+	  }
+  }
+  
+  /* lg */
+  @media (min-width: 992px) {
+  
+	  .paragraph heading{
+		  font-size: 35px;
+	  }
+  
+	  .paragraph parabody{
+		  font-size: 15px;
+	  }
+	  .yellow{
+		  padding-top: 210px;;
+	  }
+	  .paragraph{
+		padding-top: 0px;
+	}
+  }
+  
+    /* xl */
+    @media (min-width: 1200px) {
+    
+      .paragraph heading{
+        font-size: 35px;
+      }
+    
+      .paragraph parabody{
+        font-size: 25px;
+      }
+  }
