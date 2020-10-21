@@ -90,6 +90,11 @@ html {
 
   }
 
+    .sponsors-text{
+      display: flex;
+      align-items: center ;
+    }
+
     .sponsors{
       margin-top: 60px;
     }
@@ -184,12 +189,12 @@ html {
         font-size: 48px;
         z-index: 40;
         padding: 30px;
-        text-align: center;
+        text-align: center;;
       }
 
       .standalone-event{
         color: black;
-        width: 100vw;
+        width: 100%;
         display: flex;
         justify-content: center;
         margin-bottom: 60px;
@@ -334,7 +339,8 @@ html {
   
 	  .paragraph parabody{
 		  font-size: 25px;
-	  }
+    }
+    
   }
   
   /* lg */
