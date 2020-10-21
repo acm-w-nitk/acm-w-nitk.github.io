@@ -1,0 +1,414 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  
+  body{
+    background-color: #020202;
+    color: white;
+    overflow-x: hidden;
+    }  
+
+  
+  .header{
+    background-color: #f15a42;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+    z-index: 50;
+    position: fixed;
+    }
+  
+  .header.active {
+	  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+  }
+  
+  .nav-options ul li a{
+	  padding-top: 21px;
+	  padding-bottom: 17px;
+	  width: auto;
+	  height: 110%;
+	  font-size: 14px;
+	  text-decoration: none;
+	  color: white;
+	  font-family: 'Raleway', sans-serif;
+  }
+  
+  .chapter_name{
+	  text-align: center;
+	  font-size: 30px;
+	  text-decoration: none;
+	  color: black;
+  }
+  
+  .nav-options ul > li a:hover {
+	  background-color: #fac92C;
+	  color: #f15a42;
+  }
+  
+  button.hamburger{
+	display: none;
+  }
+  
+  .standalone-event .card{
+    width: 55%;
+    border: 1px solid black;
+  }
+
+  @media only screen and (max-width: 576px){
+	  .nav-options li{
+		  display: none;
+	  }
+  
+	button.hamburger{
+	  align-self: flex-end;
+	  display: block;
+	  padding: 2vw;
+	  outline: none!important;
+	  font-size: 3vh;
+	  background-color: transparent;
+	  border: none;
+	  cursor: pointer;
+	  color: #ffffff;
+	  margin-top: 5px;
+	  }
+  
+	.nav-options ul{
+	  flex-direction: column;
+	}
+  
+	.nav-options li{
+	  margin: 0;
+	}
+  
+	  .nav-options a{
+    display: block;
+    }
+
+    .standalone-event .card{
+      width: 90%;
+      border: 1px solid black;
+    }
+
+  }
+
+    .sponsors-text{
+      display: flex;
+      align-items: center ;
+    }
+
+    .sponsors{
+      margin-top: 60px;
+    }
+    
+    .sponsors .card{
+      border: none;
+      /* background: repeating-linear-gradient(35deg, #f15a42 0%, #f15a42 10%,  #5680e9 10%, #5680e9 20%); */
+      background-color: #f15a42;
+    }
+
+    .sponsor-title{
+      text-align: center;
+      width: 100%;
+      color: white;
+    }
+
+    .logo{
+        margin-top: 5px;
+    }
+
+    .img-logo {
+        height:60px;
+        width:60px;
+        padding: 5px;
+    }
+
+    #motivational-speaker-text{
+        padding: 200px;
+        font-family: 'Alatsi', sans-serif;
+        font-size: 24px;
+    }
+
+    .parallax {
+        /* The image used */
+        background-image: url("img_parallax.jpg");
+      
+        /* Set a specific height */
+        height: 500px;
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    
+      #upcoming-events-section{
+          width: 100vw;
+          margin-top: 600px;
+          z-index: 20;
+          background-color: white; 
+          display: flex;
+          justify-content: center;
+      }
+
+      
+      #motivational-speaker-carousel{
+        width: 100vw;
+        height: 50vh;
+        position: fixed;
+        opacity: 0.55;
+        z-index: -10;
+        top: -15vw;
+    }
+
+      #upcoming-events-title{
+          width: 100vw;
+          height: 50vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 64px;
+          font-weight: 600;
+          color: white;
+
+      }
+
+      .pedestal-speakers{
+          width: 100%;
+          height: 50vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          z-index: 30;
+      }
+      .pedestal-speakers span{
+          z-index: inherit;
+      }
+
+      .title{
+        color: #1b4793;
+        font-size: 48px;
+        z-index: 40;
+        padding: 30px;
+        text-align: center;;
+      }
+
+      .standalone-event{
+        color: black;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+      }
+
+      @media only screen and (max-width: 1200px){
+        #motivational-speaker-carousel{
+          top: 0px;
+        }
+
+        .standalone-event .card{
+          width: 90%;
+        }
+      }
+
+      .fa-facebook {
+        color: #1b4793;
+        margin: 10px;
+      }
+      
+      .fa-linkedin {
+        color: #1b4793;
+        margin: 10px;
+      }
+      
+      .fa-instagram {
+        color: #1b4793;
+        margin: 10px;
+      }
+      
+      .fa-instagram:hover {
+        opacity: 0.8;
+        border: none;
+      }
+      
+      .fa-facebook:hover {
+        opacity: 0.8;
+        border: none;
+      }
+      
+      .fa-linkedin:hover {
+        opacity: 0.8;
+        border: none;
+      }
+      
+      .email-button {
+      background-color: #1b4793;
+      color : white;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 15px;
+      text-align: center;
+      font-style: bold;
+      width: 180px;
+      text-decoration: none;
+      }
+      
+      .email-button:hover{
+        border: 0px;
+        background-color: #ffffff;
+      }
+      .header-text {
+        margin-top:100px;
+      }
+      
+      img {
+      
+        width:100%;
+      }
+      
+      .img-logo {
+        height:60px;
+        width:60px;
+        padding: 5px;
+      }
+      
+      .paragraph heading{
+        font-family: 'Alatsi', sans-serif;
+        padding-bottom: 5px;
+        color: #1b4793;
+        border-bottom: 4px solid #f15a42; 
+        text-align: center;
+      }
+      
+      .paragraph parabody{
+        font-family: 'Raleway', sans-serif;
+        font-size: 17px;
+        color: #1b4793;
+        text-align: justify;
+      }
+
+      #contact-us-section{
+        background-color: #ffffff;
+      }
+
+      .paragraph heading{
+        font-family: 'Alatsi', sans-serif;
+        padding-bottom: 5px;
+        color: #1b4793;
+        border-bottom: 4px solid #f15a42; 
+        text-align: center;
+      }
+
+       /* xs */
+  @media (min-width: 0px) {
+  
+	  .paragraph heading{
+		  font-size: 30px;
+	  }
+  
+	  .paragraph parabody{
+		  font-size: 20px;
+	  }
+	  .paragraph{
+		padding-top: 20px;
+    }
+    
+  }
+  
+  /* sm */
+  @media (min-width: 576px) {
+  
+	  .paragraph heading{
+		  font-size: 30px;
+	  }
+  
+	  .paragraph parabody{
+		  font-size: 20px;
+    }
+  
+  }
+  
+  /* md */
+  @media (min-width: 768px) {
+  
+	  .paragraph heading{
+		  font-size: 35px;
+	  }
+  
+	  .paragraph parabody{
+		  font-size: 25px;
+    }
+    
+  }
+  
+  /* lg */
+  @media (min-width: 992px) {
+  
+	  .paragraph heading{
+		  font-size: 35px;
+	  }
+  
+	  .paragraph parabody{
+		  font-size: 15px;
+	  }
+	  .yellow{
+		  padding-top: 210px;;
+	  }
+	  .paragraph{
+    padding-top: 0px;
+  }
+    .card-block .card-text:nth-child(odd){
+      font-size: 19px;
+    }
+  }
+  
+    /* xl */
+    @media (min-width: 1200px) {
+    
+      .paragraph heading{
+        font-size: 35px;
+      }
+    
+      .paragraph parabody{
+        font-size: 25px;
+      }
+  }
+
+  h4.card-title{
+    font-size: 42px;
+    font-family: 'Alatsi', sans-serif;
+  }
+
+  .card-block .card-text:nth-child(even){
+    font-style: italic;
+    font-size: 24px;
+  }
+
+  #upcoming-events-list div heading{
+    font-family: 'Alatsi', sans-serif;
+	  padding-bottom: 5px;
+	  color: #1b4793;
+	  border-bottom: 5px solid #f15a42; 
+    font-size: 48px;
+    font-weight: 500;
+  }
+
+  .btn-default {
+    font-family: 'Alatsi', sans-serif;
+    font-size: 13px;
+    color: rgba(108, 88, 179, 0.75);
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid rgba(108, 89, 179, 0.75);
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.2s ease 0s;
+  }
+  
+  .btn-default:hover {
+    color: #FFF;
+    background: rgba(108, 88, 179, 0.75);
+    border: 2px solid rgba(108, 89, 179, 0.75);
+  }
