@@ -55,8 +55,8 @@ function oldevents() {
 <div class = "row">
   ${oldeventsData.map(EventTemplate).join("")} </div>
 `;
-  document.getElementById("newevents").style.borderBottom = "5px solid #ffffff";
-  document.getElementById("oldevents").style.borderBottom = "5px solid #f15a42";
+  document.getElementById("newevents").style.border = "5px solid #1b1b1b";
+  document.getElementById("oldevents").style.border = "5px solid #02CCFE";
 }
 
 function newevents() {
@@ -68,6 +68,6 @@ function newevents() {
 
   ${neweventsData.map(EventTemplate).join("")} </div></div></div></div></div>
 `;
-  document.getElementById("oldevents").style.borderBottom = "5px solid #ffffff";
-  document.getElementById("newevents").style.borderBottom = "5px solid #f15a42";
+  document.getElementById("oldevents").style.border = "5px solid #1b1b1b";
+  document.getElementById("newevents").style.border = "5px solid #02CCFE";
 }
