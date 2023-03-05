@@ -27,7 +27,19 @@ html {
       color: #ffffff;
       font-family: 'Raleway', sans-serif;
   }
+
+  .typewriter {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(25) infinite;
+  }
   
+  @keyframes typing {
+    from { opacity: 0; }
+    to { opacity: 1 }
+  }
+
   .chapter_name{
       text-align: center;
       font-size: 30px;
