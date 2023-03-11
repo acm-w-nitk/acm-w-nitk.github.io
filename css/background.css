@@ -94,7 +94,7 @@
 } */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700");
 .hero {
-  background-color: #0040c1;
+  background-color: black;
   position: relative;
   height: 60%;
   overflow: hidden;
@@ -127,7 +127,7 @@
           animation: cube 12s ease-in forwards infinite;
 }
 .cube:nth-child(2n) {
-  border-color:rgb(21, 6, 85);
+  border-color:black;
 }
 .cube:nth-child(2) {
   -webkit-animation-delay: 2s;

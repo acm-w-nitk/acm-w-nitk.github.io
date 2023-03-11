@@ -7,7 +7,7 @@ html {
   }
   
   .header{
-	  background-color: #f15a42;
+	  background-color: black;
 	  position: fixed;
 	  z-index: 10;
   }
@@ -35,8 +35,8 @@ html {
   }
   
   .nav-options ul > li a:hover {
-	  background-color: #fac92C;
-	  color: #f15a42;
+	  background-color: #4B006E;
+	  color: #5AB9EA;
   }
   
   button.hamburger{
@@ -89,7 +89,7 @@ html {
 	  font-family: 'Raleway', sans-serif;
 	  text-align: center;
 	  /* background-color: #0040c1; */
-		background-color: #1b4793; 
+		background-color: #4B006E;
 	  color: #ffffff;
 	  z-index: 20;
   }
@@ -104,15 +104,15 @@ html {
   .about heading {
 	  font-family: 'Alatsi', sans-serif;
 	  padding-bottom: 10px;
-	  color: #1b4793;
-	  border-bottom: 5px solid #f15a42; 
+	  color: #4B006E;
+	   border-bottom: 2px solid #02CCFE;
 	  font-size: 35px;
   }
   
   .about parabody {
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
-	  color: #1b4793;
+	  color: black;
 	  text-align: justify;
   }
   
@@ -121,6 +121,7 @@ html {
   .about-card{
 	  margin: auto;
 	  align-items: center;
+
   }
   
   
@@ -263,8 +264,8 @@ html {
   }
   
   .email-button {
-	background-color: #1b4793;
-	color : white;
+	background-color: #02CCFE;
+	color : #4B006E;
 	padding-top: 17px;
 	padding-bottom: 17px;
 	padding-left: 20px;
@@ -299,15 +300,15 @@ html {
   .paragraph heading{
 	  font-family: 'Alatsi', sans-serif;
 	  padding-bottom: 5px;
-	  color: #1b4793;
-	  border-bottom: 4px solid #f15a42; 
+	  color: white;
+	  border-bottom: 4px solid #4B006E;; 
 	  text-align: center;
   }
   
   .paragraph parabody{
 	  font-family: 'Raleway', sans-serif;
 	  font-size: 17px;
-	  color: #1b4793;
+	  color: white;
 	  text-align: justify;
   }
   
@@ -466,19 +467,19 @@ html {
   }
   
   .base2 {
-	  background:#f15a42;
+	  background:#4B006E;
   }
   
   .circle2 {
-	  background:#f15a42;
+	  background:#4B006E;
   }
   
   .base3 {
-	  background:#fac92C;
+	  background:black;
   }
   
   .circle3 {
-	  background:#fac92C;
+	  background:black;
   }
 
 
@@ -569,10 +570,6 @@ html {
 	color: #1b4793;
   }
 
-
-  .dropbtn {
-}
-
 .dropdown {
     position: relative;
     display: inline-block;
@@ -622,7 +619,7 @@ html {
 
 .dropdown:hover .dropbtn {
 	background-color: #fac92C;
-	color: #f15a42;
+	color: #4B006E;
 }
 
   @media (min-width: 768px) {
