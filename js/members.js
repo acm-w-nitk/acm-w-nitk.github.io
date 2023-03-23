@@ -48,7 +48,7 @@ const members2 = [
 
 function EventTemplate1(events) {
   return `
-    <div  class="card col-md-4 col-sm-12> 
+    <div  class="card col-md-4 col-sm-12>
     <div class="card" align="center">
     <div class="image-box">
     <img src="${events.photo}" class="rounded-circle" alt="Vice Chair">
@@ -65,7 +65,7 @@ function EventTemplate1(events) {
 }
 function EventTemplate2(events) {
   return `
-    <div align="center" class="card col-md-6 col-sm-12> 
+    <div align="center" class="card col-md-6 col-sm-12>
     <div class="card" align="center">
     <div class="image-box1">
     <img src="${events.photo}" class="rounded-circle" alt="Vice Chair">
