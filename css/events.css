@@ -174,16 +174,12 @@ html {
   .card{
       border-color: #000000;
       background-color: #1b1b1b;
+      color: #ffffff;
       border-radius: 20px;
+        
   }
   
-  .card-body{
-      font-family: 'Raleway', sans-serif;
-      font-family: 'Raleway', sans-serif;
-	  font-size: 17px;
-	  color: #ffffff;
-	  text-align: justify;
-  }
+  
   
   .card-body name{
       text-align: center;
@@ -572,23 +568,17 @@ html {
 
   .button:hover{
     border-bottom: 5px solid #000000;
+    background: rgb(0, 0, 0);
   }
 
 
   .card:hover{
 		background: rgb(0, 0, 0);
-        color: #000000;
+        border-color: #02CCFE;
+        color: #ffffff;
         transition: 0.3s;
         
       }
-  .card-body:hover{
-        font-family: 'Raleway', sans-serif;
-        font-family: 'Raleway', sans-serif;
-        font-size: 17px;
-        color: #ffffff;
-        background-color: #000000;
-        text-align: justify;
-        transition: 0.3s;
-    }
+
   
   
