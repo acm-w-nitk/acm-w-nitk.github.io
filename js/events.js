@@ -31,21 +31,25 @@ const neweventsData = [
 ];
 
 
-function EventTemplate(events) {
+function EventTemplateOut(events) {
   return `
-  <div class="card col-md-4 col-sm-12> 
+  <button class="card col-md-3 col-sm-16> 
   <div class="card">
   <div style="text-align:center">
   <img src="${events.photo}" alt="Card image cap" class="img-fluid">
-  <div class="card-body">
-    <h5 class="card-title" style="text-align:center";><strong>${events.name}</strong></h5>
-    <p class="card-text">${events.desc}</p>
+  <h5 class="card-title" style="text-align:center";><strong>${events.name}</strong></h5>
+  <div class="card--hover">
+  
+  <p class="card-text">${events.desc}</p>
   </div>
-  </div>
-  </div>
+  </div> 
+  </button>
   `;
 
 }
+
+
+
 document.getElementById("oldevents").click();
 function oldevents() {
   i = 0;
@@ -53,10 +57,11 @@ function oldevents() {
   document.getElementById("app").innerHTML = `<br>
 <div class= "container">
 <div class = "row">
-  ${oldeventsData.map(EventTemplate).join("")} </div>
+  ${oldeventsData.map(EventTemplateOut).join("")}
+   </div>
 `;
-  document.getElementById("newevents").style.borderBottom = "5px solid #ffffff";
-  document.getElementById("oldevents").style.borderBottom = "5px solid #f15a42";
+  document.getElementById("newevents").style.border = "5px solid #1b1b1b";
+  document.getElementById("oldevents").style.border = "5px solid #02CCFE";
 }
 
 function newevents() {
@@ -65,9 +70,8 @@ function newevents() {
   document.getElementById("app").innerHTML = ` <br>
 <div class= "container">
 <div class="row">
-
   ${neweventsData.map(EventTemplate).join("")} </div></div></div></div></div>
 `;
-  document.getElementById("oldevents").style.borderBottom = "5px solid #ffffff";
-  document.getElementById("newevents").style.borderBottom = "5px solid #f15a42";
+  document.getElementById("oldevents").style.border = "5px solid #1b1b1b";
+  document.getElementById("newevents").style.border = "5px solid #02CCFE";
 }
