@@ -3,11 +3,11 @@ html {
   }
   
   .body{
-      background-color: #cfe5cc;
+      background-color: #000000;
   }
   
   .header{
-      background-color: #f15a42;
+      background-color: #4B006E;
       position: fixed;
       box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.6);
       z-index: 10;
@@ -36,8 +36,8 @@ html {
   }
   
   .nav-options ul > li a:hover {
-      background-color: #fac92C;
-      color: #f15a42;
+      background-color: #02CCFE;
+      color: #4B006E;
   }
   
   button.hamburger{
@@ -50,13 +50,13 @@ html {
     top: 0;
     left: 0;
     display: block;
-    background:rgb(250,201,44,0.8);
+    background:rgb(2,204,254,0.75);
     z-index:2;
   }
   
   #text{
     font-size: 50px;
-    color:white; 
+    color:rgb(0, 0, 0); 
     z-index: 100;
     padding-bottom: 50px;  
   }
@@ -71,7 +71,7 @@ html {
       padding: 2vw;
       outline: none!important;
       font-size: 3vh;
-      background-color: transparent;
+      background-color: #2b2b2b;
       border: none;
       cursor: pointer;
       color: #ffffff;
@@ -115,21 +115,23 @@ html {
       align-items: center;
       font-family: 'Alatsi', sans-serif;
       font-weight: 100;
-      background-color: #ffffff;
+      background-color: #1b1b1b;
   }
   
   .about heading {
       font-family: 'Alatsi', sans-serif;
       padding-bottom: 10px;
-      color: #1b4793;
-      border-bottom: 5px solid #f15a42; 
+      color: #1b1b1b;
+      background-color: #1b1b1b;
+      border-bottom: 5px solid #ffffff; 
       font-size: 35px;
   }
   
   .about parabody {
       font-family: 'Raleway', sans-serif;
       font-size: 20px;
-      color: #1b4793;
+      color: #ffffff;
+      background-color: #1b1b1b;
       text-align: justify;
   }
   
@@ -151,7 +153,7 @@ html {
   }
   
   hr {
-      color: #ffffff;
+      color: #000000;
       opacity: 0.6;
       display: block;
       margin-top: 2em;
@@ -170,17 +172,14 @@ html {
   }
   
   .card{
-      border-color: transparent;
-      background-color: transparent;
+      border-color: #000000;
+      background-color: #1b1b1b;
+      color: #ffffff;
+      border-radius: 20px;
+        
   }
   
-  .card-body{
-      font-family: 'Raleway', sans-serif;
-      font-family: 'Raleway', sans-serif;
-	  font-size: 17px;
-	  color: #1b4793;
-	  text-align: justify;
-  }
+  
   
   .card-body name{
       text-align: center;
@@ -223,11 +222,11 @@ html {
   }
   
   .carousel {
-      background-color: transparent;
+      background-color: #000000;
   }
   
   .activities{
-      background-color: #cfe5cc;
+      background-color: #000000;
       padding-bottom: 20px;
   }
   
@@ -346,7 +345,7 @@ html {
   }
   
   .main-header {
-      
+      background-color: #000000;
   }
   
   
@@ -499,7 +498,7 @@ html {
   .base{
     height:400px;
     width:300px;
-    background:#d33;
+    background:#4B006E ;
     position:relative;
     margin-top:100px;
     margin: auto;
@@ -514,7 +513,7 @@ html {
     left:50%;
     margin-left:-35px;
     top: -40px;
-    background: #d33;
+    background: #4B006E;
   }
   
   .base1 {
@@ -526,19 +525,19 @@ html {
   }
   
   .base2 {
-      background:#f15a42;
+      background:#4B006E;
   }
   
   .circle2 {
-      background:#f15a42;
+      background:#4B006E;
   }
   
   .base3 {
-      background:#fac92C;
+      background:#02CCFE;
   }
   
   .circle3 {
-      background:#fac92C;
+      background:#02CCFE;
   }
 
 
@@ -552,26 +551,34 @@ html {
 
 
   .button {
-    background: white;
+    background: #1b1b1b;
 	border: none;
-	color: #1b4793;
+	color: #ffffff;
 	padding: 15px 32px;
 	text-align: center;
+    border-radius: 50px;
+    margin: 4px 2px;
 	text-decoration: none;
 	display: inline-block;
     font-size: 30px;
     font-family: 'Alatsi', sans-serif;
 	cursor: pointer;
-	width:48%;
+	width:40%;
   }
 
   .button:hover{
-    border-bottom: 5px solid #f15a42;
+    border-bottom: 5px solid #000000;
+    background: rgb(0, 0, 0);
   }
 
 
   .card:hover{
-		background: lightcyan;
+		background: rgb(0, 0, 0);
+        border-color: #02CCFE;
+        color: #ffffff;
+        transition: 0.3s;
+        
       }
+
   
   
